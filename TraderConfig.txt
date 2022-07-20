@@ -30,7 +30,7 @@
 // Sidorovich Trader 
 <Trader> Борода
 	<Category> Склад
-		Potato,			                                *,		-1,			250
+		Potato,			                                *,		-1,			25
 		PorkCan,				                        *,		-1,			500
 		SodaCan_Kvass,			                        *,		-1,			250
 		Canteen,				                        *,		-1,			3000
