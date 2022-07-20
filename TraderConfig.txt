@@ -1,0 +1,1313 @@
+
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+        //                                                                                             //
+        //      Need Help? The Trader Mod has its own Channel on the DayZ Modders Discord Server!      //
+        //                                                                                             //
+        //      Only Singleline Comments work. Don't use Multiline Comments!                           //
+        //      /* THIS COMMENT WILL CRASH THE SERVER! */                                              //
+        //      // THIS COMMENT WORKS!                                                                 //
+        //                                                                                             //
+        /////////////////////////////////////////////////////////////////////////////////////////////////
+
+<CurrencyName> #tm_ruble							// Currency Name (Only used for the Text in the upper right Corner of the Trader Menu)
+	<Currency> TraderPlus_Money_Ruble1_Coin, 			1					// Currency Classname, Currency Money Value
+	<Currency> TraderPlus_Money_Ruble2_Coin,			2
+	<Currency> TraderPlus_Money_Ruble5,					5
+	<Currency> TraderPlus_Money_Ruble10,				10
+	<Currency> TraderPlus_Money_Ruble50,				50
+	<Currency> TraderPlus_Money_Ruble100,				100
+	<Currency> TraderPlus_Money_Ruble500,				500
+
+// EXAMPLE
+// <Trader> Consume Trader							// Trader Name (first Trader has ID = 0, second Trader has ID = 1, and so on..)
+// 	<Category> Vegetables							// Category Name
+// 		CaninaBerry,			*,		1,		-1	// Item Classname, Quantity, Buyvalue, Sellvalue
+// 		SambucusBerry,			*,		1,		-1	// Quantity * means max value; Quantity V means Vehicle; Quantity VNK means Vehicle without Key; Quantity M means Magazine; Quantity W means Weapon; Quantity S means Steack Meat; Quantity K means Key Duplication
+// 		Plum,					*,		1,		-1	// Buyvalue -1 means it can not be bought
+// 		Kiwi,					*,		1,		-1	// Sellvalue -1 means it can not be selled
+
+
+// Sidorovich Trader 
+<Trader> Борода
+	<Category> Склад
+		Potato,			                                *,		-1,			250
+		PorkCan,				                        *,		-1,			500
+		SodaCan_Kvass,			                        *,		-1,			250
+		Canteen,				                        *,		-1,			3000
+		SFP_Vodka_Kazak,		                        *,		-1,			5000
+		BP_Cigarette_Pak,		                        *,		-1,			2000
+		Flashlight,                                     *,      -1,         1000
+        Rope,                                           *,      -1,         500
+        Battery9V,                                      *,      -1,         100
+        ItemPDA,                                        *,      -1,         5000
+        PZ_Dosimetr1,                                   *,      -1,         500
+        PZ_Dosimetr3,                                   *,      -1,         5000
+        PZ_Tester,                                      *,      -1,         7000
+        PZ_IglaBox,                                     *,      -1,         5000
+        Headtorch_Grey,                                 *,      -1,         5000
+        Headtorch_Black,                                *,      -1,         5000
+        PortableGasLamp,                                *,      -1,         5000
+        GardenLime,                                     *,      -1,         25000
+        Chemlight_Blue,                                 *,      -1,         100
+        Hook,                                           *,      -1,         100
+        Binoculars,                                     *,      -1,         3000
+        Rangefinder,                                    *,      -1,         10000
+        Cleaver,                                        *,      -1,         1000
+        Hatchet,                                        *,      -1,         1000
+        CombatKnife,                                    *,      -1,         5000
+        HuntingKnife,                                   *,      -1,         100
+        UniversalLight,                                 *,      -1,         1500
+        TraderPlus_Wallet,                              *,      -1,         5000
+        AlarmClock_Green,                               *,      -1,         3000
+        KitchenTimer,                                   *,      -1,         100
+        Pen_Black,                                      *,      -1,         100
+        SmallProtectorCase,                             *,      -1,         15000
+        BP_CanisterGasoline_1G,                         *,      -1,         10000
+        BP_CanisterGasoline_5l,                         *,      -1,         0000
+        PortableGasStove,                               *,      -1,         10000
+        Bp_Bowl,                                        *,      -1,         500
+        BP_VintageLighter,                              *,      -1,         100
+        BP1_Cotelok,                                    *,      -1,         1000
+        LeatherSewingKit,                               *,      -1,         3000
+        WeaponCleaningKit,                              *,      -1,         8000
+        SewingKit,                                      *,      -1,         1000
+        Tripod,                                         *,      -1,         2500
+        OrienteeringCompass,                            *,      -1,         5000
+        BP_Watch,                                       *,      -1,         100
+        PetrolLighter,                                  *,      -1,         1000
+        Whetstone,                                      *,      -1,         1000
+        Matchbox,                                       *,      -1,         100
+
+	<Category> Снаряга Скадовск
+	    FS_ProPantsST_BLACK,							*,		-1,		    4000
+		Msp_ArmyBag,								    *,		-1,		    52250
+		SGE_Stalker_Sunrise_Jacket,						*,		-1,		    5000
+		SGE_Stalker_Sunrise_Pants,						*,		-1,		    5000
+		SGE_Stalker_Sunrise_Vest,						*,		-1,		    10000
+		SGE_Stalker_Sunrise_BackPack,					*,		-1,		    5000
+		SGE_Stalker_Sunrise_Belt,						*,		-1,		    5000
+		XS_EQP_VEST_SUNRISE_BlueCamo,					*,		-1,		    3000
+		XS_EQP_VEST_SUNRISE_Haki,						*,		-1,		    3000
+		XS_EQP_VEST_SUNRISE_GreyCamo,					*,		-1,		    3000
+		XS_EQP_VEST_SUNRISE_GreenCamo,					*,		-1,		    3000
+		XS_EQP_VEST_SUNRISE_GreenWater,					*,		-1,		    3000
+		FP4_Hood_LES,							        *,		-1,		    2000
+		FP4_Hood_Desert,							    *,		-1,		    2000
+		HuntingJacket_Brown,						    *,		-1,		    10000
+		FP4_TacticalPants_tan,						    *,		-1,		    7000
+		FP4_TacticalPants_Desert,					    *,		-1,		    7000
+		FP4_TacticalBoots_Brown,					    *,		-1,		    3500
+		FP4_TacticalBoots_desert,					    *,		-1,		    3500
+		PressVest_Blue,					                *,		-1,		    10000
+		PoliceVest,						                *,		-1,		    15000
+		TacticalShirt_Tan,					            *,		-1,		    4000
+		TacticalShirt_Olive,					        *,		-1,		    4000
+		XS_EQP_VEST_SUNRISE_GreenWater,				    *,		-1,		    3000
+		
+	<Category> Медицина
+		Rag,						1,		-1,			10
+		BandageDressing,			2,		-1,			150
+		BloodTestKit,				*,		-1,			250
+		InjectionVial,				*,		-1, 		25
+		Thermometer,				*,		-1,			125
+		DisinfectantSpray,			*,		-1,			400
+		Syringe,					*,		-1, 		40
+		Heatpack,					*,		-1,		    50
+		StartKitIV,					*,		-1,		    50
+		SalineBag,					*,		-1,		    1750
+		BloodBagEmpty,				*,		-1,		    290
+		FirstAidKit,				*,		-1,		    100
+		CharcoalTablets,			*,		-1,			460
+		DisinfectantAlcohol,		*,		-1,			1200
+		VitaminBottle,				*,		-1,			3000
+		PainkillerTablets,			*,		-1,		    1500
+		Morphine,					*,		-1,		    3125
+		AntiChemInjector,			*,		-1,		    15000
+		PZ_Antirad_2tab,            *,      -1,         300
+        PZ_Rad_X,                   *,      -1,         1500
+        SK_Medkit,                  *,      -1,         3500
+		
+	<Category> Артефакты
+		SA_Detector_Otklik,         *,      -1,         65000
+        SK_ART_Case3,               *,      -1,         30000
+        art_kristal,                *,      -1,         12500
+        art_glaz,                   *,      -1,         11600
+        art_pustishka,              *,      -1,         7000
+        art_batareyka,              *,      -1,         5000
+        art_vspishka,               *,      -1,         13500
+        art_kolobok,                *,      -1,         12100
+        art_vivert,                 *,      -1,         5000
+        art_puzir,                  *,      -1,         1900
+        art_gravi,                  *,      -1,         9000
+        art_myaso,                  *,      -1,         1100
+        art_ribka,                  *,      -1,         80000
+        art_plamya,                 *,      -1,         11000
+        art_shar,                   *,      -1,         1500
+        art_krov_kamnya,            *,      -1,         6500
+		
+	<Category> Мутанты
+		FS_KrovoSOS_Head_BolotTvar,					*,		-1,		2000
+		FS_KrovoSOS_Head_Dark,						*,		-1,		2000
+		FS_KrovoSOS_Head_blood,						*,		-1,		2000
+		FS_KrovoSOS_Tentacles,						*,		-1,		1600
+		FS_KrovoSOS_Head,							*,		-1,		2000
+		FS_Kaban_LeftLeg,							*,		-1,		1600
+		FS_Kaban_RightLeg,							*,		-1,		1600
+		FS_Kaban_Head,								*,		-1,		2000
+		FS_Kaban_Tors,								*,		-1,		1800
+		FS_Plot_Golova,								*,		-1,		1000
+		FS_Plot_Pelvis,								*,		-1,		1000
+		FS_Tark_Roga,								*,		-1,		3600
+		FS_Tark_Lapa,								*,		-1,		3600
+		FS_Tark_Head,								*,		-1,		4000
+		FS_KotBaun_LAPA,							*,		-1,		1000
+		FS_KotBaun_LAPAzad,							*,		-1,		1000
+		FS_KotBaun_Golova,							*,		-1,		1000
+		FS_KotBaun_Tuska,							*,		-1,		1000
+		FS_SlepDog_Hvost,							*,		-1,		1000
+		FS_SlepDog_Lapa,							*,		-1,		1000
+		FS_DogZ_LAPA,								*,		-1,		1000
+		FS_DogZ_LAPA2,								*,		-1,		1000
+		FS_DogZ_Golova,								*,		-1,		1000
+		FS_DogZ_Hvost,								*,		-1,		1000
+		FS_DogZ_Telo,								*,		-1,		1000
+		FS_PseDog_Head,								*,		-1,		3000
+		FS_PseDog_Hvost,							*,		-1,		2000
+		FS_WolfZMB_HVOST,							*,		-1,		1000
+		FS_WolfZMB_HEAD,							*,		-1,		1000
+		FS_Snork_Head,								*,		-1,		1500
+		FS_Snork_glove,								*,		-1,		1000
+		Mutant_XZ_Zombi_Hand,						*,		-1,	    2100
+		XS_MUT_BloodSucker_Tentacle,			    *,		-1,	    2300
+		XS_MUT_BloodSucker_Tentacle_Dark,		    *,		-1,	    3100
+		XS_MUT_BloodSucker_Tentacle_Albinos,	    *,		-1,	    3500
+		XS_MUT_BloodSucker_Tentacle_Bolot,	        *,		-1,	    4100
+
+	<Category> Головные уборы
+		BeanieHat_Black,							*,		200,	-1
+		BeanieHat_Green,							*,		200,	-1
+		BeanieHat_Green,							*,		200,	-1
+		CowboyHat_Black,							*,		250,	-1
+		CowboyHat_Brown,							*,		250,	-1
+		CowboyHat_Green,							*,		300,	-1
+		WitchHood_Black,							*,		300,	-1
+		WitchHood_Brown,							*,		300,	-1
+		WitchHood_Red,								*,		300,	-1
+		
+    <Category> Пончо и плащи
+		FS_Poncho_black,							*,		200,	-1
+		FS_Poncho_green,							*,		200,	-1
+		FS_Poncho_ColorBase,						*,		200,	-1
+	
+	<Category> Backpacks
+	    aod_backpack_loner1_drybag,							*,		500,	-1
+		aod_backpack_loner2_drybag,							*,		500,	-1
+		aod_backpack_loner3_drybag,							*,		500,	-1
+		aod_backpack_loner4_drybag,							*,		500,	-1
+		aod_backpack_loner1_hunting,						*,		500,	-1
+		aod_backpack_loner2_hunting,						*,		500,	-1
+		aod_backpack_loner3_hunting,						*,		500,	-1
+		aod_backpack_loner4_hunting,						*,		500,	-1
+		Bridger_AoD_Back,									*,		750,	-1
+		
+	<Category> Gloves
+	    WorkingGloves_Black,							*,		150,	-1
+		WorkingGloves_Beige,							*,		150,	-1
+		WorkingGloves_Brown,							*,		150,	-1
+		LeatherGloves_Black,							*,		150,	-1
+		LeatherGloves_Natural,							*,		150,	-1
+		LeatherGloves_Beige,							*,		150,	-1
+		LeatherGloves_Brown,							*,		150,	-1
+		
+	<Category> Pants
+	    Zorya_Sunrise_AoD_Loner_Pants,					*,		300,	-1
+		Zorya_Sunrise_AoD_Loner_v1_Pants,				*,		300,	-1
+		Zorya_Sunrise_AoD_Loner_v2_Pants,				*,		300,	-1
+		FS_ProPantsST,									*,		450,	-1
+		FS_ProPantsST_ColorBase,						*,		450,	-1
+		FS_ST_Pants_ColorBase,							*,		450,	-1
+		FS_ST_Pants_Tan,								*,		450,	-1
+		FS_ST_Pants_Netral,								*,		450,	-1
+		FS_ST_Pants_Netral2,							*,		450,	-1
+		
+	<Category> Shoes
+	    MilitaryBoots_Beige,							*,		200,	-1
+		MilitaryBoots_Black,							*,		200,	-1
+		MilitaryBoots_Brown,							*,		200,	-1
+	    JungleBoots_Beige,								*,		200,	-1
+		JungleBoots_Black,								*,		200,	-1
+		JungleBoots_Brown,								*,		200,	-1
+		JungleBoots_Olive,								*,		200,	-1
+		
+	<Category> 
+// Ecologist Trader
+<Trader> Professor Sakharov
+	<Category> Documents
+		dzn_athena_planning,			*,		-1,			5000
+		dzn_athena_action1,				*,		-1,			5000
+		dzn_athena_action2,				*,		-1,			5000
+		dzn_netanyas_log,				*,		-1,			5000
+		dzn_athena3_august,				*,		-1,			5000
+		dzn_athena3_exp1,				*,		-1,			5000
+		dzn_athena3_exp2,				*,		-1,			5000
+		dzn_athena3_october,			*,		-1,			5000
+		dzn_module_card,				*,		-1,			5000
+		dzn_module_lantia,				*,		-1,			5000
+		dzn_module_surge,				*,		-1,			5000
+		dzn_module_ext,					*,		-1,			5000
+
+	<Category> Zone Equipment
+		Battery9V,									*,		80,			40
+		Geigercounter_Sova,							*,		-1,			500
+		GasMask_Filter,								*,		1000,		425
+		Sova_Detector_Svarog,						*,		400000,		200000
+		Sova_Detector_Velas,						*,		200000,		100000
+		Sova_Detector_Bear,							*,		100000,		50000
+		Sova_Detector_Otklik,						*,		50000,		25000
+		GeigerCounter,								*,		1000,		500
+		Geigercounter_Opal,							*,		2000,		1000
+		Geigercounter_Sova,							*,		3000,		1500
+		Geigercounter_Osa,							*,		4000,		2000
+		dzn_apsi,									*,		8000,		4000
+		dzn_detector,								*,		60000,		30000
+		
+	<Category> Medical
+		Rag,						1,		10,			10
+		BandageDressing,			2,		30,			15
+		BloodTestKit,				*,		50,			25
+		InjectionVial,				*,		50, 		25
+		Thermometer,				*,		50,			25
+		DisinfectantSpray,			*,		80,			40
+		Syringe,					*,		80, 		40
+		Heatpack,					*,		100,		50
+		StartKitIV,					*,		100,		50
+		SalineBag,					*,		150,		75
+		BloodBagEmpty,				*,		180,		90
+		FirstAidKit,				*,		200,		100
+		Defibrillator,				*,		350, 		175
+		CharcoalTablets,			*,		20,			10
+		DisinfectantAlcohol,		*,		40,			20
+		VitaminBottle,				*,		60,			30
+		TetracyclineAntibiotics,	*,		80,			40
+		PainkillerTablets,			*,		100,		50
+		Epinephrine,				*,		200,		100
+		Morphine,					*,		250,		125
+		AntiChemInjector,			*,		10000,		2000
+		RadiationCure,				*,		10000,		2000
+		AntiRadPills,				*,		2000,		1000
+		
+	<Category> Artifacts
+		DW_ArtContainer1,			*,		700000,		250000
+		DW_ArtContainer,			*,		1000000,	400000
+		GayKa,						*,		100,		20
+		art_batareyka,				*,		-1,			10000
+		art_busy,					*,		-1,			9800
+		art_dusha,					*,		-1,			9600
+		art_glaz,					*,		-1,			9400
+		art_gravi,					*,		-1,			9200
+		art_izolator,				*,		-1,			8600
+		art_kameniy_cvetok,			*,		-1,			8400
+		art_kolobok,				*,		-1,			8200
+		art_kompas,					*,		-1,			7800
+		art_kristal,				*,		-1,			7600
+		art_krov_kamnya,			*,		-1,			7400
+		art_myaso,					*,		-1,			7200
+		art_oasis,					*,		-1,			6800
+		art_plamya,					*,		-1,			6600
+		art_pustishka,				*,		-1,			5000
+		art_puzir,					*,		-1,			5000
+		art_ribka,					*,		-1,			5000
+		art_shar,					*,		-1,			5000
+		art_shturval,				*,		-1,			5000
+		art_snejinka,				*,		-1,			5000
+		art_svet,					*,		-1,			5000
+		art_vivert,					*,		-1,			5000
+		art_vspishka,				*,		-1,			5000
+		art_zvezda,					*,		-1,			5000
+		art_plenka,					*,		-1,			5000
+		art_meduza,					*,		-1,			5000
+		
+	<Category> Mutant Parts
+		Mutant_AoD_Pdog_Tail,						*,		-1,		1000
+		FS_KrovoSOS_Head_BolotTvar,					*,		-1,		2000
+		FS_KrovoSOS_Head_Dark,						*,		-1,		2000
+		FS_KrovoSOS_Head_blood,						*,		-1,		2000
+		FS_KrovoSOS_Tentacles,						*,		-1,		1600
+		FS_KrovoSOS_Head,							*,		-1,		2000
+		FS_Kontroler_Brain,							*,		-1,		6000
+		FS_Kaban_LeftLeg,							*,		-1,		1600
+		FS_Kaban_RightLeg,							*,		-1,		1600
+		FS_Kaban_Head,								*,		-1,		2000
+		FS_Kaban_Tors,								*,		-1,		1800
+		FS_Plot_Golova,								*,		-1,		1000
+		FS_Plot_Pelvis,								*,		-1,		1000
+		FS_Tark_Roga,								*,		-1,		3600
+		FS_Tark_Lapa,								*,		-1,		3600
+		FS_Tark_Head,								*,		-1,		4000
+		FS_KotBaun_LAPA,							*,		-1,		1000
+		FS_KotBaun_LAPAzad,							*,		-1,		1000
+		FS_KotBaun_Golova,							*,		-1,		1000
+		FS_KotBaun_Tuska,							*,		-1,		1000
+		FS_SlepDog_Hvost,							*,		-1,		1000
+		FS_SlepDog_Lapa,							*,		-1,		1000
+		FS_DogZ_LAPA,								*,		-1,		1000
+		FS_DogZ_LAPA2,								*,		-1,		1000
+		FS_DogZ_Golova,								*,		-1,		1000
+		FS_DogZ_Hvost,								*,		-1,		1000
+		FS_DogZ_Telo,								*,		-1,		1000
+		FS_PseDog_Head,								*,		-1,		3000
+		FS_PseDog_Hvost,							*,		-1,		2000
+		FS_WolfZMB_HVOST,							*,		-1,		1000
+		FS_WolfZMB_HEAD,							*,		-1,		1000
+		FS_Probirka_Poltergest,						*,		-1,		3000
+		FS_Snork_Head_boss,							*,		-1,		3000
+		FS_Snork_Head,								*,		-1,		1500
+		FS_Snork_glove,								*,		-1,		1000
+		Bone,										*,		200,	100
+		Lard,										*,		200,	100
+		Guts,										*,		200,	100
+		SmallGuts,									*,		200,	100
+		
+	<Category> Hats and Helmets
+	    aod_headgear_loner_nbc,							*,		550,	-1
+		aod_headgear_loner1_nbc,						*,		550,	-1
+	
+	<Category> Vests
+        NewSeva_AoD_Loner_Vest,								*,		850,	-1
+		NewSeva_AoD_Loner_v1_Vest,							*,		850,	-1
+		NewSeva_AoD_Loner_v2_Vest,							*,		850,	-1
+		NewSeva_ArmSt_Loner_Vest,							*,		850,	-1
+		NewSeva_ArmSt_Loner_Vest,							*,		850,	-1
+
+	<Category> Uniforms
+	    FS_SevaMark2_brown,							*,		1000,	-1
+		FS_SevaMark2_Green,							*,		1000,	-1
+		FS_SevaMark2_Camo,							*,		1000,	-1
+		FS_SevaMark2_Camo2,							*,		1000,	-1
+		FS_SevaMark2_Black,							*,		1000,	-1
+		NewSeva_AoD_Loner_Body_Hood0,				*,		1000,	-1
+		NewSeva_AoD_Loner_v1_Body_Hood0,			*,		1000,	-1
+		NewSeva_AoD_Loner_v2_Body_Hood0,			*,		1000,	-1
+	<Category> Backpacks
+		NewSeva_ArmSt_Loner_Back,					*,		750,	-1
+		NewSeva_ArmSt_Bandit_Back,					*,		750,	-1
+	<Category> Gloves
+	    aod_gloves_loner_nbc,						*,		450,	-1
+		aod_gloves_loner1_nbc,						*,		450,	-1
+	<Category> Pants
+	    NewSeva_AoD_Loner_Pants,					*,		650,	-1
+		NewSeva_AoD_Loner_v1_Pants,					*,		650,	-1
+	    NewSeva_AoD_Loner_v1_Pants,					*,		650,	-1
+	<Category> Shoes
+	    aod_boots_loner_nbc,						*,		500,	-1
+		aod_boots_loner1_nbc,						*,		500,	-1
+
+	<Category> Gas Mask and Filters	
+	    M04_AoD_GasMask,						*,		800,	-1
+		M04_AoD_GasMask_Filter,					*,		100,	-1
+		M40m2_AoD_GasMask,						*,		900,	-1
+		M40_AoD_GasMask_Filter,					*,		200,	-1
+		M50_AoD_GasMask,						*,		1000,	-1
+		M50_AoD_GasMask_Filter,					*,		250,	-1
+
+// Ecologist Faction Trader
+<Trader> Eco Faction Trader
+    <Category> Hats and Helmets
+	    NewSeva_ArmSt_Science1_Helmet,							*,		500,	-1
+		NewSeva_ArmSt_Science2_Helmet,							*,		500,	-1
+		aod_headgear_sevahelmet_ssp99,							*,		500,	-1
+		aod_headgear_sevahelmet_ssp99m,							*,		500,	-1
+		
+	<Category> Vests
+        NewSeva_AoD_Ecolog_Vest,							*,		500,	-1
+		NewSeva_AoD_Ecolog_v2_Vest,							*,		500,	-1
+		NewSeva_ArmSt_Science1_Vest,							*,		500,	-1
+		NewSeva_ArmSt_Science2_Vest,							*,		500,	-1
+		NewSeva_AoD_Loner_Vest,							*,		500,	-1
+
+	<Category> Uniforms
+	    NewSeva_AoD_Ecolog_Body_Hood0,							*,		500,	-1
+		NewSeva_AoD_Ecolog_v2_Body_Hood0,							*,		500,	-1
+		NewSeva_ArmSt_Science1_Body_Hood0,							*,		500,	-1
+		NewSeva_ArmSt_Science2_Body_Hood0,							*,		500,	-1
+		NewSeva_AoD_Ecolog_Body_Hood1,							*,		500,	-1
+		NewSeva_AoD_Ecolog_v2_Body_Hood1,							*,		500,	-1
+	<Category> Backpacks
+		aod_backpack_ecolog_sevabag_ssp99,							*,		500,	-1
+		aod_backpack_ecolog_sevabag_ssp99m,							*,		500,	-1
+		NewSeva_ArmSt_Science1_Back,							*,		500,	-1
+		NewSeva_ArmSt_Science2_Back,							*,		500,	-1
+	<Category> Gloves
+	    aod_gloves_ecolog_nbc_ssp99,							*,		250,	-1
+		aod_gloves_ecolog_nbc_ssp99m,							*,		250,	-1
+	<Category> Pants
+	    NewSeva_AoD_Ecolog_Pants,							*,		500,	-1
+		NewSeva_AoD_Ecolog_v2_Pants,							*,		500,	-1
+	    NewSeva_ArmSt_Science1_Pants,							*,		500,	-1
+		NewSeva_ArmSt_Science2_Pants,							*,		500,	-1
+	<Category> Shoes
+	    FS_ECO_Orange_Boots,							*,		250,	-1
+		FS_ECO_Green_Boots,							*,		250,	-1
+		aod_boots_ecolog_nbc_ssp99,							*,		250,	-1
+		aod_boots_ecolog_nbc_ssp99m,							*,		250,	-1
+	<Category> Medical Supplies
+	    VitaminBottle,							*,		75,	-1
+		TetracyclineAntibiotics,							*,		100,	-1
+		BandageDressing,							*,		100,	-1
+		Rag,							*,		10,	-1
+		FS_ITEM_Antirad,							*,		400,	-1
+		Vodka,							*,		50,	-1
+		FS_ITEM_VODKA,							*,		150,	-1
+		DisinfectantSpray,							*,		75,	-1
+		DisinfectantAlchol,							*,		50,	-1
+        AMS_FirstAidKit,							*,		100,	-1
+		AMS_AntiSept,							*,		150,	-1
+		AMS_Polaris,							*,		150,	-1
+		AMS_BandageBox,							*,		100,	-1
+		AMS_BandageTape,							*,		150,	-1
+		AMS_Bandage,							*,		100,	-1
+		AMS_Polaris,							*,		200,	-1
+		AMS_Narcotics,							*,		200,	-1
+		AMS_Energy,							*,		150,	-1
+		AMS_Methadone,							*,		200,	-1
+		AMS_Tourniquet,							*,		100,	-1
+		AMS_Poter,							*,		150,	-1
+		AMS_Splint,							*,		100,	-1
+		AMS_Ai2,							*,		350,	-1
+		AMS_MFAK,							*,		300,	-1
+		AMS_WaterStraw,							*,		50,	-1
+		AMS_Pox,							*,		350,	-1
+	    AMS_Heatpack,							*,		50,	-1
+		AMS_Absorbent,							*,		125,	-1
+		FS_Item_PsyBlocade,							*,		200,	-1
+	    
+	<Category> Food and Drinks
+	    FS_Item_IRP_B,							*,		150,	-1
+		FS_Item_MRE,							*,		100,	-1
+		FS_Item_IRP_UKR,							*,		90,	-1
+		Canteen,							*,		50,	-1
+		WaterBottle,							*,		50,	-1
+	<Category> Tools
+	    Chemlight_White,							*,		25,	-1
+		Chemlight_Red,							*,		25,	-1
+		Chemlight_Blue,							*,		25,	-1
+		Chemlight_Yellow,							*,		25,	-1
+		Flashlight,							*,		75,	-1
+		PetrolLighter,							*,		100,	-1
+		Matchbox,							*,		50,	-1
+		Whetstone,							*,		100
+		SewingKit,							*,		150,	-1
+		LeatherSewingKit,							*,		150,	-1
+		HuntingKnife,							*,		75,	-1
+		Battery9V,							*,		10,	-1
+		GeigerCounter_Sova,							*,		500,	-1
+		GeigerCounter_Osa,							*,		750,	-1
+	<Category> Gas Mask and Filters
+	
+	    M04_AoD_GasMask,							*,		250,	-1
+		M04_AoD_GasMask_Filter,							*,		100,	-1
+		M40m2_AoD_GasMask,							*,		325,	-1
+		M40_AoD_GasMask_Filter,							*,		100,	-1
+		M50_AoD_GasMask,							*,		450,	-1
+		M50_AoD_GasMask_Filter,							*,		100,	-1
+
+    <Category> Weapons
+		FS_BenelliM4_ShotGun,							W,		650,	-1
+		GCGN_BenelliM4,							W,		850,	-1
+		M16A2,							W,		950,	-1
+		AugShort,							W,		1100,	-1
+		Winchester70_Black,							W,		1200,	-1
+	
+	<Category> Ammunition
+	    AmmoBox_00buck_10rnd,							W,		190,	-1
+		AmmoBox_12gaSlug_10Rnd,							W,		190,	-1
+		AmmoBox_545x39_20Rnd,							W,		200,	-1
+		AmmoBox_762x39_20Rnd,							W,		225,	-1
+		AmmoBox_762x54_20Rnd,							W,		275,	-1
+		AmmoBox_556x45_20Rnd,							W,		250,	-1
+		AmmoBox_308Win_20Rnd,							W,		300,	-1
+		Mag_STANAG_30Rnd,							W,		150,	-1
+		Mag_CMAG_30Rnd,							W,		300,	-1
+		
+	<Category> Intelligence and Misc 
+		FS_PREDMET_ChertezExo						*,		-1,	4000
+		FS_PREDMET_Detali_Exo						*,		-1,	5500
+		FS_PREDMET_Noutbuk						*,		-1,	4500
+		FS_PREDMET_ChertezSEVA						*,		-1,	3500
+		FS_PREDMET_Detali_SEVA						*,		-1,	4000
+		FS_Document_1						*,		-1,	3000
+		FS_Document_2						*,		-1,	6000
+		FS_Document_3						*,		-1,	9000
+		FS_Probirka_Blood						*,		-1,	2500
+		FS_Probirka_Sliz						*,		-1,	2750
+		FS_Probirka_SlizBlue						*,		-1,	3000
+		FS_Probirka_SlizOrange						*,		-1,	3250
+		FS_Probirka_Poltergest						*,		-1,	3575
+		
+
+// Bandit Faction Trader
+<Trader> Bandit Faction Trader
+	<Category> Vests
+		NewSeva_AoD_Bandit_Vest,							*,		275,	-1
+		Zorya_Sunrise_AoD_Bandit_Vests						*,		275,	-1
+		NewSeva_ArmSt_Bandit_Vest,							*,		275,	-1
+		PS3_7_AoD_Bandit_Vests,							*,		275,	-1
+		aod_vest_bandit_ballisticvest,							*,		275,	-1
+    <Category> Ponchos and Cloaks
+		FS_Poncho_black,							*,		100,	-1
+		FS_Poncho_green,							*,		100,	-1
+		FS_Poncho_ColorBase,							*,		100,	-1
+		FS_Plash_Tactical_brown,							*,		220,	-1
+		FS_Plash_Tactical_black,							*,		220,	-1
+	
+	<Category> Uniforms
+		Coat_AoD_Bandit_Zorya_Blk_Body,							*,		220,	-1
+		Coat_AoD_Bandit_Zorya_NewSeva_Blk_Body,							*,		220,	-1
+		NewSeva_AoD_Bandit_Body_Hood0,							*,		220,	-1
+		NewSeva_AoD_Bandit_Body_Hood1,							*,		220,	-1
+		Novice_AoD_Hood1_Bandit_Body,							*,		220,	-1
+	    Novice_AoD_Hood0_Bandit_Body,							*,		220,	-1
+		Zorya_Sunrise_AoD_Bandit_Body1,							*,		220,	-1
+		Zorya_Sunrise_AoD_Bandit_Body2,							*,		220,	-1
+		aod_body_bandit_gorka,							*,		220,	-1
+		aod_p_body_bandit_gorka,							*,		220,	-1
+		aod_body_bandit_m65,							*,		220,	-1
+		aod_p_body_bandit_m65,							*,		220,	-1
+		aod_body_bandit_tactical,							*,		220,	-1
+		
+	<Category> Backpacks
+	    Fortified_AoD_Back,						*,		220,	-1
+		Aidan_AoD_Back,							*,		220,	-1
+		BP1_HuntingBag_black,							*,		220,	-1
+		BP1_MountainBag_Black,							*,		220,	-1
+		BP_TacticalBag_Black,							*,		220,	-1
+		AliceBag_Black,							*,		220,	-1
+		FS_HuntBag_black,							*,		220,	-1
+	<Category> Gloves
+	    TacticalGloves_Black,							*,		220,	-1
+		OMNOGloves_Gray,							*,		220,	-1
+		OMNOGloves_Brown,							*,		220,	-1
+		FS_MiniGloves_black,							*,		220,	-1
+	<Category> Pants
+	    NewSeva_AoD_Bandit_Pants,							*,		220,	-1
+		Zorya_Sunrise_AoD_Bandit_Pants,							*,		220,	-1
+		aod_pants_bandit_cargo,							*,		220,	-1
+		aod_pants_bandit1_cargo,							*,		220,	-1
+		aod_pants_bandit_gorka,							*,		220,	-1
+		aod_pants_bandit1_gorka,							*,		220,	-1
+		aod_pants_bandit2_gorka,							*,		220,	-1
+		aod_pants_bandit_hunter,							*,		220,	-1
+	<Category> Shoes
+	    HikingBoots_Brown,							*,		220,	-1
+		HikingBoots_Black,							*,		220,	-1
+		MilitartBoots_Brown,							*,		220,	-1
+		MilitartBoots_Black,							*,		220,	-1
+		CombatBoots_Brown,							*,		220,	-1
+		CombatBoots_Black,							*,		220,	-1
+	<Category> Medical Supplies
+	    VitaminBottle,							*,		150,	-1
+		TetracyclineAntibiotics,							*,		175,	-1
+		BandageDressing,							*,		150,	-1
+		Rag,							*,		50,	-1
+		FS_ITEM_Antirad,							*,		600,	-1
+		Vodka,							*,		75,	-1
+		FS_ITEM_VODKA,							*,		100,	-1
+		DisinfectantSpray,							*,		75,	-1
+		DisinfectantAlchol,							*,		50,	-1
+        AMS_FirstAidKit,							*,		100,	-1
+		AMS_AntiSept,							*,		250,	-1
+		AMS_Polaris,							*,		250,	-1
+		AMS_BandageBox,							*,		200,	-1
+		AMS_BandageTape,							*,		275,	-1
+		AMS_Bandage,							*,		150,	-1
+		AMS_Narcotics,							*,		300,	-1
+		AMS_Energy,							*,		275,	-1
+		AMS_Methadone,							*,		275,	-1
+		AMS_Tourniquet,							*,		125,	-1
+		AMS_Poter,							*,		150,	-1
+		AMS_Splint,							*,		100,	-1
+		AMS_WaterStraw,							*,		50,	-1
+		AMS_Pox,							*,		375,	-1
+	<Category> Food and Drinks
+		SodaCan_Kvass,							*,		150,	-1
+		Canteen,							*,		100,	-1
+		WaterBottle,							*,		100,	-1
+		FS_ITEM_Kolbas,							*,		200,	-1
+		FS_ITEM_CHEESE,							*,		200,	-1
+	    FS_Bread,							*,		150,	-1
+		Honey,							*,		150,	-1
+		PsilcybeMushroom,							*,		300,	-1
+	<Category> Weapons
+	    SNAFUPPsh,							W,		700,	-1
+	    FS_BenelliM4_ShotGun,							W,		900,	-1
+		Saiga,							W,		1000,	-1
+	    Mosin9130,							W,		750,	-1
+		Mosin9130_Black,							W,		800,	-1
+		TLS_Ventil_M33,							W,		1000,	-1
+		TLS_Ubludok,							W,		650,	-1
+		TLS_VSV_M33,							W,		800,	-1
+		TLS_AK_M33,							W,		1125,	-1
+	<Category> Ammunition
+		SNAFU_Ammo_762x25,							W,		150,	-1
+		AmmoBox_00buck_10rnd,							W,		175,	-1
+		AmmoBox_12gaSlug_10Rnd,							W,		175,	-1
+		AmmoBox_545x39_20Rnd,							W,		190,	-1
+		AmmoBox_762x54_20Rnd,							W,		275,	-1
+		Mag_Saiga_8Rnd,							W,		250,	-1
+		SNAFUPPsh_71rdMag,							W,		200,	-1
+		TLS_Ventil_M33_6Rnd,							W,		500,	-1
+		FS_Mag_Ubludok_30Rnd,							W,		250,	-1
+		TLS_Mag_VSV_M33_25Rnd,							W,		300,	-1
+		TLS_Mag_AK74_M33_30Rnd,							W,		350,	-1
+	<Category> Tools
+	    Chemlight_White,							*,		75,	-1
+		Chemlight_Red,							*,		75,	-1
+		Chemlight_Blue,							*,		75,	-1
+		Chemlight_Yellow,							*,		75,	-1
+		Flashlight,							*,		175,	-1
+		Headtorch_black,							*,		250,	-1
+		PetrolLighter,							*,		200,	-1
+		Matchbox,							*,		75,	-1
+		Whetstone,							*,		250
+		SewingKit,							*,		275,	-1
+		LeatherSewingKit,							*,		300,	-1
+	    TLS_Knifei_mprovised,							*,		200,	-1
+		TLS_Knife_M33,							*,		250,	-1
+		Battery9V,							*,		75,	-1
+		FishingRod,							*,		200,	-1
+		Hook,							*,		75,	-1
+		GeigerCounter,							*,		300,	-1
+		Geigercounter_Opal,							*,		300,	-1
+   <Category> Gas Mask and Filters
+	    M50m2_AoD_GasMask,							*,		750,	-1
+		M50m2_AoD_GasMask_Filter_Right,							*,		200,	-1
+		M50m2_AoD_GasMask_Filter_Left,							*,		200,	-1
+		
+// Bandit Trader
+<Trader> Bandit Trader
+	<Category> Hats
+		BeanieHat_Black,							*,		150,	-1
+		BeanieHat_Green,							*,		150,	-1
+		BeanieHat_Green,							*,		150,	-1
+		CowboyHat_Black,							*,		150,	-1
+		CowboyHat_Brown,							*,		150,	-1
+		CowboyHat_Green,							*,		150,	-1
+		WitchHood_Black,							*,		150,	-1
+		WitchHood_Brown,							*,		150,	-1
+		WitchHood_Red,							*,		150,	-1
+		
+	<Category> Vests
+        aod_Vest_loner1_ukassVest,							*,		300,	-1
+		aod_Vest_loner2_ukassVest,							*,		300,	-1
+		aod_Vest_loner3_ukassVest,							*,		300,	-1
+		aod_Vest_loner4_ukassVest,							*,		300,	-1
+		Zorya_Sunrise_AoD_Loner_Vests,							*,		400,	-1
+		Zorya_Sunrise_AoD_Loner_v1_Vests,							*,		400,	-1
+		Zorya_Sunrise_AoD_Loner_v2_Vests,							*,		400,	-1
+		Zorya_Sunrise_AoD_Loner_v3_Vests,							*,		400,	-1
+		HuntingVest,							*,		400,	-1
+		FS_TacticalVest,							*,		550,	-1
+		FS_TacticalVest_Black,							*,		650,	-1
+		
+    <Category> Ponchos and Cloaks
+		FS_Poncho_black,							*,		100,	-1
+		FS_Poncho_green,							*,		100,	-1
+		FS_Poncho_ColorBase,							*,		100,	-1
+		FS_Plash_Tactical_brown,							*,		220,	-1
+		FS_Plash_Tactical_black,							*,		220,	-1
+		
+	<Category> Uniforms
+	    Zorya_Sunrise_AoD_Loner_Body1,							*,		250,	-1
+		Zorya_Sunrise_AoD_Loner_v1_Body1,							*,		250,	-1
+		Zorya_Sunrise_AoD_Loner_v2_Body1,							*,		250,	-1
+		Zorya_Sunrise_AoD_Loner_Body2,							*,		250,	-1
+		Zorya_Sunrise_AoD_Loner_v1_Body2,							*,		250,	-1
+		Zorya_Sunrise_AoD_Loner_v2_Body2,							*,		250,	-1
+		Novice_AoD_Hood1_Yel_Body,							*,		250,	-1
+		Novice_AoD_Hood1_Blk_Body,							*,		250,	-1
+		Novice_AoD_Hood1_Loner_Body,							*,		250,	-1
+		Novice_AoD_Hood0_Yel_Body,							*,		250,	-1
+		Novice_AoD_Hood0_Blk_Body,							*,		250,	-1
+		Novice_AoD_Hood0_Loner_Body,							*,		250,	-1
+		
+	<Category> Backpacks
+	    aod_backpack_loner1_drybag,							*,		350,	-1
+		aod_backpack_loner2_drybag,							*,		350,	-1
+		aod_backpack_loner3_drybag,							*,		350,	-1
+		aod_backpack_loner4_drybag,							*,		350,	-1
+		aod_backpack_loner1_hunting,							*,		350,	-1
+		aod_backpack_loner2_hunting,							*,		350,	-1
+		aod_backpack_loner3_hunting,							*,		350,	-1
+		aod_backpack_loner4_hunting,							*,		350,	-1
+		Bridger_AoD_Back,							*,		650,	-1
+		Fortified_AoD_Back,							*,		925,	-1
+		
+	<Category> Gloves
+	    WorkingGloves_Black,							*,		100,	-1
+		WorkingGloves_Beige,							*,		100,	-1
+		WorkingGloves_Brown,							*,		100,	-1
+		LeatherGloves_Black,							*,		100,	-1
+		LeatherGloves_Natural,							*,		100,	-1
+		LeatherGloves_Beige,							*,		100,	-1
+		LeatherGloves_Brown,							*,		100,	-1
+		
+	<Category> Pants
+	    Zorya_Sunrise_AoD_Loner_Pants,							*,		200,	-1
+		Zorya_Sunrise_AoD_Loner_v1_Pants,							*,		200,	-1
+		Zorya_Sunrise_AoD_Loner_v2_Pants,							*,		200,	-1
+		FS_ProPantsST,							*,		275,	-1
+		FS_ProPantsST_ColorBase,							*,		275,	-1
+		FS_ST_Pants_ColorBase,							*,		275,	-1
+		FS_ST_Pants_Tan,							*,		275,	-1
+		FS_ST_Pants_Netral,							*,		275,	-1
+		FS_ST_Pants_Netral2,							*,		275,	-1
+		
+	<Category> Shoes
+	    MilitaryBoots_Beige,							*,		150,	-1
+		MilitaryBoots_Black,							*,		150,	-1
+		MilitaryBoots_Brown,							*,		150,	-1
+	    JungleBoots_Beige,							*,		150,	-1
+		JungleBoots_Black,							*,		150,	-1
+		JungleBoots_Brown,							*,		150,	-1
+		JungleBoots_Olive,							*,		150,	-1
+		
+	<Category> Medical Supplies
+	    VitaminBottle,							*,		175,	-1
+		TetracyclineAntibiotics,							*,		175,	-1
+		BandageDressing,							*,		175,	-1
+		Rag,							*,		40,	-1
+		FS_ITEM_Antirad,							*,		900,	-1
+		Vodka,							*,		185,	-1
+		FS_ITEM_VODKA,							*,		275,	-1
+		DisinfectantSpray,							*,		180,	-1
+		DisinfectantAlchol,							*,		180,	-1
+        AMS_FirstAidKit,							*,		280,	-1
+		AMS_BandageBox,							*,		200,	-1
+		AMS_Bandage,							*,		275,	-1
+		AMS_Aspirin,							*,		300,	-1
+		AMS_Poter,							*,		300,	-1
+		Splint,							*,		150,	-1
+		
+	<Category> Food and Drinks
+		Canteen,							*,		120,	-1
+		WaterBottle,							*,		120,	-1
+		FS_ITEM_Kolbas,							*,		200,	-1
+		FS_ITEM_CHEESE,							*,		250,	-1
+	    FS_Bread,							*,		250,	-1
+		
+	<Category> Weapons
+		Sawedoffizh43Shotgun,							W,		300,	-1
+		izh43Shotgun,							W,		400,	-1
+		Mp133Shotgun,							W,		500,	-1
+		FS_m590_Shotgun							W,		600,	-1
+		SKS,							W,	1200,	-1
+		SawedoffMosin9130,							W,		800,	-1
+		Mosin9130,							W,		1000,	-1
+		TLS_Ubludok,							W,		1000,	-1
+		TLS_VSV_M33,							W,		1200,	-1
+	<Category> Ammunition
+	    AmmoBox_00buck_10rnd,							W,		250,	-1
+		AmmoBox_12gaSlug_10Rnd,							W,		250,	-1
+		AmmoBox_545x39_20Rnd,							W,		300,	-1
+		AmmoBox_762x39_20Rnd,							W,		300,	-1
+		AmmoBox_762x54_20Rnd,							W,		350,	-1
+		FS_Mag_Ubludok_30Rnd,							W,		350,	-1
+		TLS_Mag_VSV_M33_25Rnd,							W,		350,	-1
+	<Category> Tools
+	    Chemlight_White,							*,		75,	-1
+		Chemlight_Red,							*,		75,	-1
+		Chemlight_Blue,							*,		75,	-1
+		Chemlight_Yellow,							*,		75,	-1
+		Flashlight,							*,		175,	-1
+		Headtorch_black,							*,		250,	-1
+		PetrolLighter,							*,		200,	-1
+		Matchbox,							*,		75,	-1
+		Whetstone,							*,		250
+		SewingKit,							*,		275,	-1
+		LeatherSewingKit,							*,		300,	-1
+	    TLS_Knifei_mprovised,							*,		200,	-1
+		TLS_Knife_M33,							*,		250,	-1
+		Battery9V,							*,		75,	-1
+		FishingRod,							*,		200,	-1
+		Hook,							*,		75,	-1
+		GeigerCounter,							*,		400,	-1
+	<Category> Gas Mask and Filters
+	    AMS_GasMaskGP21,							*,		400,	-1
+		AMS_GasMaskGP21_Filter,							*,		100,	-1
+		CM7_AoD_GasMask,							*,		500,	-1
+		CM7_AoD_GasMask_Filter,							*,		150,	-1
+		CM8_AoD_GasMask,							*,		600,	-1
+		CM8_AoD_GasMask_Filter,							*,		200,	-1
+	<Category> Mutant Parts and Fish
+	    Mutant_AoD_Boar_Leg,							*,		-1,	650
+		Mutant_AoD_Cat_Leg,							*,		-1,	700
+		Mutant_AoD_Dog_Tail,							*,		-1,	550
+		Mutant_AoD_Pdog_Tail,						*,		-1,	650
+		Mutant_AoD_Zombi_Hand,						*,		-1,	675
+		Mutant_AoD_Fresh_Eye,						*,		-1,	600
+		Carp,						*,		-1,	700
+		CarpFilletMeat,						*,		-1,	600
+		
+// Clear Sky Trader
+<Trader> Clear Sky Faction
+	
+	<Category> Medical Supplies
+	    VitaminBottle,							*,		175,	-1
+		TetracyclineAntibiotics,							*,		175,	-1
+		BandageDressing,							*,		175,	-1
+		Rag,							*,		40,	-1
+		FS_ITEM_Antirad,							*,		900,	-1
+		Vodka,							*,		185,	-1
+		FS_ITEM_VODKA,							*,		275,	-1
+		DisinfectantSpray,							*,		180,	-1
+		DisinfectantAlchol,							*,		180,	-1
+        AMS_FirstAidKit,							*,		280,	-1
+		AMS_BandageBox,							*,		200,	-1
+		AMS_Bandage,							*,		275,	-1
+		AMS_Aspirin,							*,		300,	-1
+		AMS_Poter,							*,		300,	-1
+		Splint,							*,		150,	-1
+	
+	<Category> Food and Drinks
+	    TacticalBaconCan,							*,		150,	-1
+		TunaCan,							*,		150,	-1
+		Bananna,							*,		150,	-1
+		Orange,							*,		150,	-1
+		FS_ITEM_MRE,							*,		150,	-1
+		Canteen,							*,		100,	-1
+		WaterBottle,							*,		100,	-1
+		
+	<Category> Weapons
+	    TLS_AK_M33,							W,		1125,	-1
+		SNAFU_M70,							W,		1125,	-1
+		SNAFU_M76,							W,		1125,	-1
+		SNAFUSA80,							W,		1125,	-1
+	<Category> Ammunition
+	    AmmoBox_545x39_20Rnd,							W,		190,	-1
+		AmmoBox_762x39_20Rnd,					W,		275,	-1
+		AmmoBox_556x45_20Rnd,						W,		275,	-1
+		TLS_Mag_AK74_M33_30Rnd,							W,		350,	-1
+		Mag_AKM_30Rnd,							W,		350,	-1
+		TLS_Mag_AK74_M33_30Rnd,							W,		350,	-1
+		Mag_STANAG_30Rnd,					W,		350,	-1
+		
+	<Category> Intelligence and Misc 
+		FS_Document_1,						*,		-1,	3000
+		FS_Document_2,					*,		-1,	6000
+		FS_Document_3,						*,		-1,	9000
+	
+		
+// Clear Sky Faction Trader
+<Trader> Clear Sky
+    <Category> Hats and Helmets
+        FS_ClearSky_Helmet,						*,		350,	-1
+		aod_helmet_loner_Mich2001,						*,		350,	-1
+		aod_helmet_military_Mich2001,						*,		350,	-1
+		
+	<Category> Vests
+        ClearSky_AoD_Hevy_Vests,						*,		350,	-1
+		aod_Vest_clearksy_ballisiticest,					*,		350,	-1
+		NewSeva_AoD_ClearSky_Vest,						*,		350,	-1
+		NewSeva_AoD_ClearSky_v2_Vest,						*,		350,	-1
+		NewSeva_ArmSt_ClearSky_Vest,						*,		350,	-1
+		Zorya_Sunrise_AoD_ClearSky_Vest,						*,		350,	-1
+		Zorya_Sunrise_AoD_ClearSky_v2_Vest,						*,		350,	-1
+		Zorya_Sunrise_AoD_ClearSky_v2_Vest,						*,		350,	-1
+	<Category> Uniforms
+	    NewSeva_AoD_ClearSky_Body_Hood0,						*,		350,	-1
+		NewSeva_AoD_ClearSky_Body_Hood1,						*,		350,	-1
+		Novice_AoD_Hood0_ClearSky_Body,						*,		350,	-1
+		Novice_AoD_Hood1_ClearSky_Body,						*,		350,	-1
+	<Category> Backpacks
+	    aod_backpack_loner1_drybag,							*,		350,	-1
+		aod_backpack_loner2_drybag,							*,		350,	-1
+		aod_backpack_loner3_drybag,							*,		350,	-1
+		aod_backpack_loner4_drybag,							*,		350,	-1
+		aod_backpack_loner1_hunting,							*,		350,	-1
+		aod_backpack_loner2_hunting,							*,		350,	-1
+		aod_backpack_loner3_hunting,							*,		350,	-1
+		aod_backpack_loner4_hunting,							*,		350,	-1
+		Bridger_AoD_Back,							*,		650,	-1
+		Fortified_AoD_Back,							*,		925,	-1
+	<Category> Gloves
+	    TacticalGloves_Black,							*,		220,	-1
+		OMNOGloves_Gray,							*,		220,	-1
+		OMNOGloves_Brown,							*,		220,	-1
+		FS_MiniGloves_black,							*,		220,	-1
+	<Category> Pants
+		NewSeva_AoD_ClearSky_Pants,							*,		220,	-1
+		NewSeva_AoD_ClearSky_v2_Pants,							*,		220,	-1
+		Zorya_Sunrise_AoD_ClearSky_Pants,							*,		220,	-1
+		Zorya_Sunrise_AoD_ClearSky_v2_Pants,							*,		220,	-1
+	<Category> Shoes
+	    MilitaryBoots_Beige,							*,		150,	-1
+		MilitaryBoots_Black,							*,		150,	-1
+		MilitaryBoots_Brown,							*,		150,	-1
+	    JungleBoots_Beige,							*,		150,	-1
+		JungleBoots_Black,							*,		150,	-1
+		JungleBoots_Brown,							*,		150,	-1
+		JungleBoots_Olive,							*,		150,	-1
+	<Category> Medical Supplies
+	    VitaminBottle,							*,		75,	-1
+		TetracyclineAntibiotics,							*,		100,	-1
+		BandageDressing,							*,		100,	-1
+		Rag,							*,		10,	-1
+		FS_ITEM_Antirad,							*,		400,	-1
+		Vodka,							*,		50,	-1
+		FS_ITEM_VODKA,							*,		150,	-1
+		DisinfectantSpray,							*,		75,	-1
+		DisinfectantAlchol,							*,		50,	-1
+        AMS_FirstAidKit,							*,		100,	-1
+		AMS_AntiSept,							*,		150,	-1
+		AMS_Polaris,							*,		150,	-1
+		AMS_BandageBox,							*,		100,	-1
+		AMS_BandageTape,							*,		150,	-1
+		AMS_Bandage,							*,		100,	-1
+		AMS_Polaris,							*,		200,	-1
+		AMS_Narcotics,							*,		200,	-1
+		AMS_Energy,							*,		150,	-1
+		AMS_Methadone,							*,		200,	-1
+		AMS_Tourniquet,							*,		100,	-1
+		AMS_Poter,							*,		150,	-1
+		AMS_Splint,							*,		100,	-1
+		AMS_Ai2,							*,		350,	-1
+		AMS_MFAK,							*,		300,	-1
+		AMS_WaterStraw,							*,		50,	-1
+		AMS_Pox,							*,		350,	-1
+	    AMS_Heatpack,							*,		50,	-1
+		AMS_Absorbent,							*,		125,	-1
+		FS_Item_PsyBlocade,							*,		200,	-1
+		
+	<Category> Food and Drinks
+		FS_Item_IRP_B,							*,		150,	-1
+		FS_Item_MRE,							*,		100,	-1
+		FS_Item_IRP_UKR,							*,		90,	-1
+		Canteen,							*,		50,	-1
+		WaterBottle,							*,		50,	-1
+		
+	<Category> Weapons
+	FS_BenelliM4_ShotGun,							W,		650,	-1
+		GCGN_BenelliM4,							W,		850,	-1
+		M16A2,							W,		950,	-1
+		AugShort,							W,		1100,	-1
+		Winchester70_Black,							W,		1200,	-1
+		
+	<Category> Ammunition
+	    AmmoBox_00buck_10rnd,							W,		190,	-1
+		AmmoBox_12gaSlug_10Rnd,							W,		190,	-1
+		AmmoBox_545x39_20Rnd,							W,		200,	-1
+		AmmoBox_762x39_20Rnd,							W,		225,	-1
+		AmmoBox_762x54_20Rnd,							W,		275,	-1
+		AmmoBox_556x45_20Rnd,							W,		250,	-1
+		AmmoBox_308Win_20Rnd,							W,		300,	-1
+		Mag_STANAG_30Rnd,							W,		150,	-1
+		Mag_CMAG_30Rnd,							W,		300,	-1
+	<Category> Tools
+	    Chemlight_White,							*,		75,	-1
+		Chemlight_Red,							*,		75,	-1
+		Chemlight_Blue,							*,		75,	-1
+		Chemlight_Yellow,							*,		75,	-1
+		Flashlight,							*,		175,	-1
+		Headtorch_black,							*,		250,	-1
+		PetrolLighter,							*,		200,	-1
+		Matchbox,							*,		75,	-1
+		Whetstone,							*,		250
+		SewingKit,							*,		275,	-1
+		LeatherSewingKit,							*,		300,	-1
+	    TLS_Knifei_mprovised,							*,		200,	-1
+		TLS_Knife_M33,							*,		250,	-1
+		Battery9V,							*,		75,	-1
+		FishingRod,							*,		200,	-1
+		Hook,							*,		75,	-1
+		GeigerCounter,							*,		300,	-1
+		Geigercounter_Opal,							*,		300,	-1
+		
+	<Category> Gas Mask and Filters
+	
+	    M04_AoD_GasMask,							*,		250,	-1
+		M04_AoD_GasMask_Filter,							*,		100,	-1
+		M40m2_AoD_GasMask,							*,		325,	-1
+		M40_AoD_GasMask_Filter,							*,		100,	-1
+		M50_AoD_GasMask,							*,		450,	-1
+		M50_AoD_GasMask_Filter,							*,		100,	-1
+		
+// Duty Faction Trader
+<Trader> Duty Faction
+	<Category> Vests
+
+    <Category> Ponchos and Cloaks
+	
+	<Category> Uniforms
+	
+	<Category> Backpacks
+	
+	<Category> Gloves
+	
+	<Category> Pants
+	
+	<Category> Shoes
+	    MilitaryBoots_Beige,							*,		150,	-1
+		MilitaryBoots_Black,							*,		150,	-1
+		MilitaryBoots_Brown,							*,		150,	-1
+	    JungleBoots_Beige,							*,		150,	-1
+		JungleBoots_Black,							*,		150,	-1
+		JungleBoots_Brown,							*,		150,	-1
+		JungleBoots_Olive,							*,		150,	-1
+		
+	<Category> Medical Supplies
+	
+	    VitaminBottle,							*,		75,	-1
+		TetracyclineAntibiotics,							*,		100,	-1
+		BandageDressing,							*,		100,	-1
+		Rag,							*,		10,	-1
+		FS_ITEM_Antirad,							*,		400,	-1
+		Vodka,							*,		50,	-1
+		FS_ITEM_VODKA,							*,		150,	-1
+		DisinfectantSpray,							*,		75,	-1
+		DisinfectantAlchol,							*,		50,	-1
+        AMS_FirstAidKit,							*,		100,	-1
+		AMS_AntiSept,							*,		150,	-1
+		AMS_Polaris,							*,		150,	-1
+		AMS_BandageBox,							*,		100,	-1
+		AMS_BandageTape,							*,		150,	-1
+		AMS_Bandage,							*,		100,	-1
+		AMS_Polaris,							*,		200,	-1
+		AMS_Narcotics,							*,		200,	-1
+		AMS_Energy,							*,		150,	-1
+		AMS_Methadone,							*,		200,	-1
+		AMS_Tourniquet,							*,		100,	-1
+		AMS_Poter,							*,		150,	-1
+		AMS_Splint,							*,		100,	-1
+		AMS_Ai2,							*,		350,	-1
+		AMS_MFAK,							*,		300,	-1
+		AMS_WaterStraw,							*,		50,	-1
+		AMS_Pox,							*,		350,	-1
+	    AMS_Heatpack,							*,		50,	-1
+		AMS_Absorbent,							*,		125,	-1
+		FS_Item_PsyBlocade,							*,		200,	-1
+	
+	<Category> Food and Drinks
+	
+	    FS_Item_IRP_B,							*,		150,	-1
+		FS_Item_MRE,							*,		100,	-1
+		FS_Item_IRP_UKR,							*,		90,	-1
+		Canteen,							*,		50,	-1
+		WaterBottle,							*,		50,	-1
+		
+	<Category> Weapons
+	
+	<Category> Ammunition
+	
+	<Category> Tools
+	
+	<Category> Gas Mask and Filters
+	
+// Duty Trader
+<Trader> Duty
+    <Category> Vests
+
+    <Category> Ponchos and Cloaks
+	
+	<Category> Uniforms
+	
+	<Category> Backpacks
+	
+	<Category> Gloves
+	
+	<Category> Pants
+	
+	<Category> Shoes
+	
+	<Category> Medical Supplies
+	
+	<Category> Food and Drinks
+		
+	<Category> Weapons
+	
+	<Category> Ammunition
+	
+	<Category> Tools
+	
+	<Category> Gas Mask and Filters
+	
+// Freedom Faction Trader
+<Trader> Freedom Faction
+	<Category> Vests
+
+    <Category> Ponchos and Cloaks
+	
+	<Category> Uniforms
+	
+	<Category> Backpacks
+	
+	<Category> Gloves
+	
+	<Category> Pants
+	
+	<Category> Shoes
+	
+	<Category> Medical Supplies
+	
+	<Category> Food and Drinks
+		
+	<Category> Weapons
+	
+	<Category> Ammunition
+	
+	<Category> Tools
+	
+	<Category> Gas Mask and Filters
+	
+// Freedom Trader
+<Trader> Freedom
+	<Category> Vests
+
+    <Category> Ponchos and Cloaks
+	
+	<Category> Uniforms
+	
+	<Category> Backpacks
+	
+	<Category> Gloves
+	
+	<Category> Pants
+	
+	<Category> Shoes
+	
+	<Category> Medical Supplies
+	
+	<Category> Food and Drinks
+		
+	<Category> Weapons
+	
+	<Category> Ammunition
+	
+	<Category> Tools
+	
+	<Category> Gas Mask and Filters
+	
+// Merc Faction Trader
+<Trader> Mercenary Faction
+	<Category> Vests
+
+    <Category> Ponchos and Cloaks
+	
+	<Category> Uniforms
+	
+	<Category> Backpacks
+	
+	<Category> Gloves
+	
+	<Category> Pants
+	
+	<Category> Shoes
+	
+	<Category> Medical Supplies
+	
+	<Category> Food and Drinks
+		
+	<Category> Weapons
+	
+	<Category> Ammunition
+	
+	<Category> Tools
+	
+	<Category> Gas Mask and Filters
+	
+// Merc Trader
+<Trader> Mercenary
+	<Category> Vests
+
+    <Category> Ponchos and Cloaks
+	
+	<Category> Uniforms
+	
+	<Category> Backpacks
+	
+	<Category> Gloves
+	
+	<Category> Pants
+	
+	<Category> Shoes
+	
+	<Category> Medical Supplies
+	
+	<Category> Food and Drinks
+		
+	<Category> Weapons
+	
+	<Category> Ammunition
+	
+	<Category> Tools
+	
+	<Category> Gas Mask and Filters
+	
+// Military Faction Trader
+<Trader> Military Faction
+	<Category> Vests
+
+    <Category> Ponchos and Cloaks
+	
+	<Category> Uniforms
+	
+	<Category> Backpacks
+	
+	<Category> Gloves
+	
+	<Category> Pants
+	
+	<Category> Shoes
+	
+	<Category> Medical Supplies
+	
+	<Category> Food and Drinks
+		
+	<Category> Weapons
+	
+	<Category> Ammunition
+	
+	<Category> Tools
+	
+	<Category> Gas Mask and Filters
+	
+// Military Trader
+<Trader> Military
+	<Category> Vests
+
+    <Category> Ponchos and Cloaks
+	
+	<Category> Uniforms
+	
+	<Category> Backpacks
+	
+	<Category> Gloves
+	
+	<Category> Pants
+	
+	<Category> Shoes
+	
+	<Category> Medical Supplies
+	
+	<Category> Food and Drinks
+		
+	<Category> Weapons
+	
+	<Category> Ammunition
+	
+	<Category> Tools
+	
+	<Category> Gas Mask and Filters
+	
+// AirCraft Trader
+<Trader> Mechanic
+	<Category> Helicopters
+		
+	<Category> Helicopter Parts
+		CarRadiator,					*,		500,		250
+		SparkPlug,						*,		250,		125
+		HeadlightH7,					*,		75,			30
+		
+	<Category> Keys
+		VehicleKeyDuplicate,	K,		2000,	-1
+//<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
+<FileEnd>												// This has to be on the End of this File and is very importand!

@@ -1,0 +1,250 @@
+// ------------------------------------------------------ Trader Marker/Triggers -------------------------------------------------------
+
+// Trader Marker - Sidorovich:
+<TraderMarker> 			0 										// Trader ID
+<TraderMarkerPosition>	4544.390137, 71.400002, 1814.650024 	// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	0										// Safezone Radius
+
+// Trader Marker - Ecologist - NPC_AoD_Saharov
+<TraderMarker> 			1
+<TraderMarkerPosition>	2455.347656, 38.093220, 6209.571289
+<TraderMarkerSafezone>	0
+
+// Trader Marker - Ecologist Faction - FS_Eco01_Char
+<TraderMarker> 			2
+<TraderMarkerPosition>	2455.532715, 38.101330, 6216.806152
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Bandit Faction - SurvivorM_Francis
+<TraderMarker> 			3
+<TraderMarkerPosition>	5038.808105, 118.770157, 4631.065430
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Bandit - SurvivorM_Elias
+<TraderMarker> 			4
+<TraderMarkerPosition>	5015.279785, 119.752823, 4604.833008
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Clear Sky Faction - SurvivorM_Denis
+<TraderMarker> 			5
+<TraderMarkerPosition>	1472.719971, 84.539200, 1416.900024
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Clear Sky - SurvivorM_Cyril
+<TraderMarker> 			6
+<TraderMarkerPosition>	1477.319214, 80.236656, 1374.843750
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Duty Faction - NPC_AoD_Voronin
+<TraderMarker> 			7
+<TraderMarkerPosition>	4962.189941, 121.565041, 6781.198730
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Duty - NPC_AoD_Barmen
+<TraderMarker> 			8
+<TraderMarkerPosition>	4864.927246, 121.958122, 6673.920898
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Freedom Faction - SurvivorF_Naomi
+<TraderMarker> 			9
+<TraderMarkerPosition>	5819.680176, 151.472000, 7968.629883
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Freedom - SurvivorF_Baty
+<TraderMarker> 			10
+<TraderMarkerPosition>	5764.009277, 145.191086, 8022.585449
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Merc Faction - SurvivorF_Irena
+<TraderMarker> 			11
+<TraderMarkerPosition>	2801.489990, 128.406998, 8323.129883
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Merc - SurvivorM_Taiki
+<TraderMarker> 			12
+<TraderMarkerPosition>	2809.489990, 122.691002, 8319.000000
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Military Faction - SurvivorM_Mirek
+<TraderMarker> 			13
+<TraderMarkerPosition>	4684.411133, 57.210667, 1576.714844
+<TraderMarkerSafezone>	0
+
+//  Trader Marker - Military - SurvivorM_Boris
+<TraderMarker> 			14
+<TraderMarkerPosition>	1696.078125, 42.553505, 4103.146484
+<TraderMarkerSafezone>	0
+
+// FS_Barmen_Char AirCraft Trader Marker
+<TraderMarker> 			5
+<TraderMarkerPosition>	8147.000000, 146.767639, 6716.104980
+<TraderMarkerSafezone>	0
+<VehicleSpawn>			8145.358887, 141.457321, 6739.726074		// Vehicle Spawnpoint for Trader; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		80.999954, 	 -0.000000,	 -0.000000			// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+// ------------------------------------------------------ NPC Objects to Spawn ------------------------------------------------------
+	
+// Sidorovich Trader:
+<Object>			NPC_AoD_Sidorovich
+<ObjectPosition>	4545.72021484375,  71.36319732666016,  1814.780029296875
+<ObjectOrientation>	-87.20587158203125,  -0.0,  0.0
+<ObjectAttachment>	NPC_DUMMY
+
+// Ecologist Trader
+<Object> 			NPC_AoD_Saharov
+<ObjectPosition>	2453.139893, 38.193001, 6209.540039
+<ObjectOrientation>	86.988991, 0.000000, 0.000000
+<ObjectAttachment>	NPC_DUMMY
+
+// Ecologist Faction Trader
+<Object> 			FS_Eco01_Char
+<ObjectPosition>	2455.468262, 38.109421, 6217.552734
+<ObjectOrientation>	178.014206, 0.000000, -0.000000
+<ObjectAttachment>	NPC_DUMMY
+
+// Bandit Faction Trader
+<Object> 			SurvivorM_Francis
+<ObjectPosition>	5039.549805, 118.782501, 4631.060059
+<ObjectOrientation>	-84.558014, -0.000000, 0.000000
+// <ObjectAttachment>	NPC_DUMMY
+<ObjectAttachment>	Patch_AoD_Bandit_legenda
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	Coat_AoD_Bandit_Zorya_Blk_Body
+<ObjectAttachment>	FS_MiniGloves_black
+<ObjectAttachment>	aod_pants_bandit1_cargo
+<ObjectAttachment>	Bandana_BlackPattern
+
+// Bandit Trader
+<Object> 			SurvivorM_Elias
+<ObjectPosition>	5015.189941, 119.813972, 4606.200195
+<ObjectOrientation>	178.770996, 0.000000, -0.000000
+// <ObjectAttachment>	NPC_DUMMY
+<ObjectAttachment>	Patch_AoD_Bandit_legenda
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	Coat_AoD_Bandit_Zorya_Blk_Body
+<ObjectAttachment>	FS_MiniGloves_black
+<ObjectAttachment>	aod_pants_bandit1_cargo
+<ObjectAttachment>	Bandana_BlackPattern
+
+// Clear Sky Faction Trader
+<Object> 			SurvivorM_Denis
+<ObjectPosition>	1473.739990, 84.481400, 1416.849976
+<ObjectOrientation>	-92.017593, 0.000000, 0.000000
+// <ObjectAttachment>	NPC_DUMMY
+<ObjectAttachment>	Patch_AoD_ClearSky_A_legenda
+<ObjectAttachment>	aod_body_clearsky_tactical
+<ObjectAttachment>	Zorya_Sunrise_AoD_ClearSky_Pants
+<ObjectAttachment>	Mich2001Helmet
+<ObjectAttachment>	FS_MiniGloves_ClearSky
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	aod_Vest_clearsky_pressvest
+
+// Clear Sky Trader
+<Object> 			SurvivorM_Cyril
+<ObjectPosition>	1477.299683, 80.336464, 1373.482544
+<ObjectOrientation>	-8.942571, 0.000000, 0.000000
+// <ObjectAttachment>	NPC_DUMMY
+<ObjectAttachment>	Patch_AoD_ClearSky_A_legenda
+<ObjectAttachment>	aod_body_clearsky_tactical
+<ObjectAttachment>	Zorya_Sunrise_AoD_ClearSky_Pants
+<ObjectAttachment>	Mich2001Helmet
+<ObjectAttachment>	FS_MiniGloves_ClearSky
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	aod_Vest_clearsky_pressvest
+
+// Duty Faction Trader
+<Object> 			NPC_AoD_Voronin
+<ObjectPosition>	4962.709961, 121.564850, 6781.729980
+<ObjectOrientation>	-138.348007, 0.000000, -0.000000
+<ObjectAttachment>	NPC_DUMMY
+
+// Duty Trader
+<Object> 			NPC_AoD_Barmen
+<ObjectPosition>	4864.899902, 122.075356, 6671.936523
+<ObjectOrientation>	0.000000, 0.000000, -0.000000
+<ObjectAttachment>	NPC_DUMMY
+
+// Freedom Faction Trader
+<Object> 			SurvivorF_Naomi
+<ObjectPosition>	5820.479980, 151.539993, 7968.629883
+<ObjectOrientation>	-84.999985, 0.000000, 0.000000
+// <ObjectAttachment>	NPC_DUMMY
+<ObjectAttachment>	Mich2001Helmet
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	aod_body_freedom_tactical
+<ObjectAttachment>	aod_pants_freedom_cargo
+<ObjectAttachment>	TacticalGloves_Black
+
+// Freedom Trader
+<Object> 			SurvivorF_Baty
+<ObjectPosition>	5765.540039, 145.291000, 8022.600098
+<ObjectOrientation>	-92.246498, 0.000000, -0.000000
+// <ObjectAttachment>	NPC_DUMMY
+<ObjectAttachment>	Mich2001Helmet
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	aod_body_freedom_tactical
+<ObjectAttachment>	aod_pants_freedom_cargo
+<ObjectAttachment>	TacticalGloves_Black
+
+// Merc Faction Trader
+<Object> 			SurvivorF_Irena
+<ObjectPosition>	2801.399902, 128.386703, 8323.889648
+<ObjectOrientation>	-175.500000, 0.000000, -0.000000
+// <ObjectAttachment>	NPC_DUMMY
+<ObjectAttachment>	Patch_AoD_Merc_legenda
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	aod_body_mercenary_tactical
+<ObjectAttachment>	aod_helmet_loner_Mich2001_damage
+<ObjectAttachment>	TacticalGloves_Black
+<ObjectAttachment>	aod_pants_mercenary_gorka
+<ObjectAttachment>	Balaclava3Holes_Black
+
+// Merc Trader
+<Object> 			SurvivorM_Taiki
+<ObjectPosition>	2809.484619, 122.810471, 8320.571289
+<ObjectOrientation>	177.514999, 0.000000, -0.000000
+// <ObjectAttachment>	NPC_DUMMY
+<ObjectAttachment>	Patch_AoD_Merc_legenda
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	aod_body_mercenary_tactical
+<ObjectAttachment>	aod_helmet_loner_Mich2001_damage
+<ObjectAttachment>	TacticalGloves_Black
+<ObjectAttachment>	aod_pants_mercenary_gorka
+<ObjectAttachment>	Balaclava3Holes_Black
+
+// Military Faction Trader
+<Object> 			SurvivorM_Mirek
+<ObjectPosition>	4684.419922, 57.310501, 1575.920044
+<ObjectOrientation>	0.491806, 0.000000, 0.000000
+// <ObjectAttachment>	NPC_DUMMY
+<ObjectAttachment>	Skat_AoD_Military_Helmet
+<ObjectAttachment>	UniversalLight
+<ObjectAttachment>	TacticalGloves_Black
+<ObjectAttachment>	aod_body_military_marpat
+<ObjectAttachment>	Patch_AoD_Military_legenda
+<ObjectAttachment>	aod_pants_military_gorka
+<ObjectAttachment>	MilitaryBoots_Brown
+<ObjectAttachment>	CombatKnife
+
+// Military Trader
+<Object> 			SurvivorM_Boris
+<ObjectPosition>	1697.859985, 42.653301, 4103.109863
+<ObjectOrientation>	-89.191734, -0.000000, 0.000000
+// <ObjectAttachment>	NPC_DUMMY
+<ObjectAttachment>	Skat_AoD_Military_Helmet
+<ObjectAttachment>	UniversalLight
+<ObjectAttachment>	TacticalGloves_Black
+<ObjectAttachment>	aod_body_military_marpat
+<ObjectAttachment>	Patch_AoD_Military_legenda
+<ObjectAttachment>	aod_pants_military_gorka
+<ObjectAttachment>	MilitaryBoots_Brown
+<ObjectAttachment>	CombatKnife
+
+// FS_Barmen_Char AirCraft Trader
+// <Object> 			FS_Barmen_Char
+// <ObjectPosition>	8147.169922, 146.800003, 6718.000000
+// <ObjectOrientation>	174.314041, 0.000000, -0.000000
+// <ObjectAttachment>	NPC_DUMMY
+
+<OpenFile> OtherObjects.txt
+
+<FileEnd>												// This has to be on the End of this File and is very importand!
