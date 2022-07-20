@@ -1456,39 +1456,39 @@
 	<Category> Склад со снаряжением
 		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Амуниция и Одежда | ENGName, *,-1,-1	
-		Hoodie_Red,									*,		3000,	-1
-		Hoodie_Grey,								*,		3000,	-1
-		TacticalShirt_Olive,						*,		2300,	-1
+		Hoodie_Red,									        *,		3000,	-1
+		Hoodie_Grey,								        *,		3000,	-1
+		TacticalShirt_Olive,						        *,		2300,	-1
 		BalaclavaMask_Black,								*,		5000,	-1
 	    BalaclavaMask_Pink,									*,		5000,	-1
 		BalaclavaMask_White,								*,		5000,	-1
 		Balaclava3Holes_Beige,								*,		5000,	-1
-		WorkingBoots_Brown,								*,		10000,	-1
+		WorkingBoots_Brown,								    *,		10000,	-1
 		FP4_Brodaga_Jacket,									*,		1000,	-1
 		FP4_Brodaga_Jacket_Black,							*,		1000,	-1
 		FP4_Brodaga_Jacket_Green,							*,		1000,	-1
 		IMP_Bag_MilitaryBag_Tan,							*,		25000,	-1
-		BP2_Sweater_Red_Blue,							*,		5000,	-1
-	    BP2_Sweater_Red_Green,							*,		5000,	-1
-		BP2_Sweater_Blue,								*,		5000,	-1
-		BP2_Sweater_Santa,								*,		5000,	-1
-		FS_TacticalVest,								*,		10000,	-1
-	    IMP_Mask_Balaclava_MARPAT,								*,		5150,	-1
-		IMP_Mask_Balaclava_NWU,									*,		5150,	-1
-		FP4_TacticalPants_WoodLand,				*,		15150,	-1
-		FP4_TacticalPants_ttsco,				*,		15150,	-1
-		FP4_SpecPants_tan,						*,		15150,	-1
-		FP4_MiniGloves_Gray,					*,		5500,	-1
-		BP_Vogue_Glasses_Blue,						*,		3000,	-1
-		BP_Vogue_Glasses_Yelo,						*,		3000,	-1
-		BP_Mustang_Glasses_Yel,						*,		3000,	-1
-		K_RPS_SmershVest_Green,						*,		50300,	-1
-		K_RPS_SmershBag_Green,						*,		23000,	-1
-		XS_EQP_VEST_PlateCarrier_loner01,			*,		50000,	-1
-	    XS_EQP_VEST_PlateCarrierHolster_loner01,	*,		5150,	-1
-		XS_EQP_VEST_PlateCarrierHolster_loner02,	*,		5150,	-1
-		XS_EQP_HEAD_BallisticH_loner02,							*,		42000,	-1
-		XS_EQP_HEAD_BallisticH_loner01,							*,		42000,	-1
+		BP2_Sweater_Red_Blue,							    *,		5000,	-1
+	    BP2_Sweater_Red_Green,							    *,		5000,	-1
+		BP2_Sweater_Blue,								    *,		5000,	-1
+		BP2_Sweater_Santa,								    *,		5000,	-1
+		FS_TacticalVest,								    *,		10000,	-1
+	    IMP_Mask_Balaclava_MARPAT,							*,		5150,	-1
+		IMP_Mask_Balaclava_NWU,								*,		5150,	-1
+		FP4_TacticalPants_WoodLand,				            *,		15150,	-1
+		FP4_TacticalPants_ttsco,				            *,		15150,	-1
+		FP4_SpecPants_tan,						            *,		15150,	-1
+		FP4_MiniGloves_Gray,					            *,		5500,	-1
+		BP_Vogue_Glasses_Blue,						        *,		3000,	-1
+		BP_Vogue_Glasses_Yelo,						        *,		3000,	-1
+		BP_Mustang_Glasses_Yel,						        *,		3000,	-1
+		K_RPS_SmershVest_Green,						        *,		50300,	-1
+		K_RPS_SmershBag_Green,						        *,		23000,	-1
+		XS_EQP_VEST_PlateCarrier_loner01,			        *,		50000,	-1
+	    XS_EQP_VEST_PlateCarrierHolster_loner01,	        *,		5150,	-1
+		XS_EQP_VEST_PlateCarrierHolster_loner02,	        *,		5150,	-1
+		XS_EQP_HEAD_BallisticH_loner02,						*,		42000,	-1
+		XS_EQP_HEAD_BallisticH_loner01,						*,		42000,	-1
 		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Противогазы | ENGName, *,-1,-
 		SPG_GasMask_MAG3L,			*,		70000,	-1
@@ -1604,19 +1604,249 @@
 		Mag_Glock_15Rnd,							M,		500,	-1
 		ACOGOptic,									*,		30000,	-1
 		---------- Свобода - Огород | ENGName, *,-1,-1
-		//тут завис
+		//тут завис, я не делал тут ничего, я ничего не понимаю, продолжи сам!!! Я сделал Бармена Свободы
 		
 // 	Торговец Свобода Бар ID 7 
 <Trader> Свободный Бармэн 
-	<Category> Склад Бара
+<Category> Еда
+	FP4_Kolbasa,                              *, 2000, -1
+    FS_Bread,                                 *, 5000, -1
+    FS_ITEM_VODKA,                            *, 5000, -1
+    SFP_Vodka_Rus,                            *, 3000, -1
+    FS_SoivetKruzka,                          *, 50,   -1
+    FP4_Banka_Gribi,                          *, 500,  -1
+    RabbitLegMeat,                            *, 500,  -1
+    FS_Buter,                                 *, 5000, -1
+    BP1_baltika9,                             *, 250,  -1
+
+<Category> Одежда
+	BP_TacticalBag_Green,                     *, 60000,  -1
+    BP_TacticalBag_Black,                     *, 60000,  -1
+    CargoPants_Grey,                          *, 21000,  -1
+    CargoPants_Green,                         *, 21000,  -1
+    IMP_Mask_Balaclava_MARPAT,                *, 11000,  -1
+    IMP_Mask_Balaclava_Green,                 *, 11000,  -1      
+    FS_Plash_Tactical_green,                  *, 31000,  -1
+    Hoodie_Grey,                              *, 21000,  -1
+    Hoodie_Green,                             *, 21000,  -1
+    HikingJacket_Green,                       *, 16000,  -1
+    PressVest_Blue,                           *, 30000,  -1
+    PoliceVest,                               *, 30000,  -1
+    GorkaEJacket_PautRev,                     *, 14000,  -1
+    JungleBoots_Green,                        *, 12000,  -1
+    WorkingGloves_Brown,                      *, 10000,  -1
+    TacticalGloves_Green,                     *, 10000,  -1
+    BeanieHat_Grey,                           *, 1000,   -1
+    BeanieHat_Green,                          *, 1000,   -1
+
+<Category> Оружие
+	SFP_WinM1912Shotgun,                     W, 20000,  -1
+    Ammo_556x45,                             *, 1600,   -1
+
+<Category> Противогазы
+    SPG_GasMask_MAG3L,                          *, 55000,  -1
+    SPG_GasMask_Filter_Base,                    *, 5000,   -1
+
+<Category> Инструменты
+    PZ_Dosimetr1,                            *, 1000,   -1
+    PZ_Dosimetr2,                            *, 3000,   -1      
+    PZ_Tester,                               *, 1500,   -1
+    PZ_IglaBox,                              *,  600,   -1
+    Flashlight,                              *, 1000,   -1
+    Rope,                                    *,  600,   -1
+    Battery9V,                               *,   50,   -1
+    ItemPDA,                                 *, 1000,   -1
+    Headtorch_Grey,                          *, 3000,   -1
+    Pot,                                     *,  200,   -1
+    Chemlight_Green,                         *,  200,   -1
+    CombatKnife,                             *, 3000,   -1
+    LeatherSewingKit,                        *, 1000,   -1
+    WeaponCleaningKit,                       *, 5000,   -1
+	SewingKit,                               *, 1000,   -1
+	Tripod,                                  *, 1000,   -1
+	Matchbox,                                *,  100,   -1
+	Whetstone,                               *,  300,   -1
+
+<Category> Медицина
+    PZ_Antirad_2tab,                     *, 1000,   -1
+    PZ_Rad_X,                            *, 3000,   -1      
+    SalineBag,                           *, 2500,   -1
+    BloodBagEmpty,                       *, 1000,   -1
+    FirstAidKit,                         *,  600,   -1
+    BandageDressing,                     *,   50,   -1
+    BloodTestKit,                        *, 1000,   -1
+    IodineTincture,                      *, 3000,   -1
+    Heatpack,                            *,  200,   -1
+    AMS_POX,                             *, 5000,   -1
+    Syringe,                             *, 3000,   -1
+    StartKitIV,                          *, 1000,   -1
+    CharcoalTablets,                     *, 1000,   -1
+	DisinfectantAlcohol,                 *, 1000,   -1
+	PurificationTablets,                 *, 1000,   -1
+	VitaminBottle,                       *, 2100,   -1
+	SK_Medkit,                           *, 3000,   -1
+	PainkillerTablets,                   *, 1300,   -1
 
 // 	Торговец Долг База ID 8 
 <Trader> Комендант Базы 
-	<Category> Склад Базы Долг	
+<Category> Еда
+	FP4_Kolbasa,                              *, 2000, -1
+    FS_Bread,                                 *, 5000, -1
+    FS_ITEM_VODKA,                            *, 5000, -1
+    SFP_Vodka_Rus,                            *, 3000, -1
+    FS_SoivetKruzka,                          *, 50,   -1
+    FP4_Banka_Gribi,                          *, 500,  -1
+    RabbitLegMeat,                            *, 500,  -1
+    FS_Buter,                                 *, 5000, -1
+    BP1_baltika9,                             *, 250,  -1
+
+<Category> Одежда
+	BP_TacticalBag_Black,                     *, 60000,  -1
+    BP_TacticalBag_Black,                     *, 60000,  -1
+    CargoPants_Grey,                          *, 21000,  -1
+    CargoPants_Black,                         *, 21000,  -1
+    IMP_Mask_Balaclava_MARPAT,                *, 11000,  -1
+    IMP_Mask_Balaclava_Black,                 *, 11000,  -1      
+    Hoodie_Grey,                              *, 21000,  -1
+    Hoodie_Black,                             *, 21000,  -1
+    HikingJacket_Black,                       *, 16000,  -1
+    PressVest_Blue,                           *, 30000,  -1
+    PoliceVest,                               *, 30000,  -1
+    GorkaEJacket_PautRev,                     *, 14000,  -1
+    JungleBoots_Black,                        *, 12000,  -1
+    WorkingGloves_Brown,                      *, 10000,  -1
+    TacticalGloves_Black,                     *, 10000,  -1
+    BeanieHat_Grey,                           *, 1000,   -1
+    BeanieHat_Black,                          *, 1000,   -1
+
+<Category> Оружие
+	SFP_WinM1912Shotgun,                     W, 20000,  -1
+    Ammo_556x45,                             *, 1600,   -1
+
+<Category> Противогазы
+    SPG_GasMask_MAG3L,                          *, 55000,  -1
+    SPG_GasMask_Filter_Base,                    *, 5000,   -1
+
+<Category> Инструменты
+    PZ_Dosimetr1,                            *, 1000,   -1
+    PZ_Dosimetr2,                            *, 3000,   -1      
+    PZ_Tester,                               *, 1500,   -1
+    PZ_IglaBox,                              *,  600,   -1
+    Flashlight,                              *, 1000,   -1
+    Rope,                                    *,  600,   -1
+    Battery9V,                               *,   50,   -1
+    ItemPDA,                                 *, 1000,   -1
+    Headtorch_Grey,                          *, 3000,   -1
+    Pot,                                     *,  200,   -1
+    Chemlight_Rad,                           *,  200,   -1
+    CombatKnife,                             *, 3000,   -1
+    LeatherSewingKit,                        *, 1000,   -1
+    WeaponCleaningKit,                       *, 5000,   -1
+	SewingKit,                               *, 1000,   -1
+	Tripod,                                  *, 1000,   -1
+	Matchbox,                                *,  100,   -1
+	Whetstone,                               *,  300,   -1
+
+<Category> Медицина
+    PZ_Antirad_2tab,                     *, 1000,   -1
+    PZ_Rad_X,                            *, 3000,   -1      
+    SalineBag,                           *, 2500,   -1
+    BloodBagEmpty,                       *, 1000,   -1
+    FirstAidKit,                         *,  600,   -1
+    BandageDressing,                     *,   50,   -1
+    BloodTestKit,                        *, 1000,   -1
+    IodineTincture,                      *, 3000,   -1
+    Heatpack,                            *,  200,   -1
+    AMS_POX,                             *, 5000,   -1
+    Syringe,                             *, 3000,   -1
+    StartKitIV,                          *, 1000,   -1
+    CharcoalTablets,                     *, 1000,   -1
+	DisinfectantAlcohol,                 *, 1000,   -1
+	PurificationTablets,                 *, 1000,   -1
+	VitaminBottle,                       *, 2100,   -1
+	SK_Medkit,                           *, 3000,   -1
+	SK_Medkit_Blue,                      *, 10000,  -1
+	PainkillerTablets,                   *, 1300,   -1
 	
 // 	Торговец Долг Бар ID 9 
 <Trader> Бармэн Базы Долг Базы 
-	<Category> Склад Бара Долг
+<Category> Еда
+	FP4_Kolbasa,                              *, 2000, -1
+    FS_Bread,                                 *, 5000, -1
+    FS_ITEM_VODKA,                            *, 5000, -1
+    SFP_Vodka_Rus,                            *, 3000, -1
+    FS_SoivetKruzka,                          *, 50,   -1
+    FP4_Banka_Gribi,                          *, 500,  -1
+    RabbitLegMeat,                            *, 500,  -1
+    FS_Buter,                                 *, 5000, -1
+    BP1_baltika9,                             *, 250,  -1
+
+<Category> Одежда
+	BP_TacticalBag_Black,                     *, 60000,  -1
+    BP_TacticalBag_Black,                     *, 60000,  -1
+    CargoPants_Grey,                          *, 21000,  -1
+    CargoPants_Black,                         *, 21000,  -1
+    IMP_Mask_Balaclava_MARPAT,                *, 11000,  -1
+    IMP_Mask_Balaclava_Black,                 *, 11000,  -1      
+    Hoodie_Grey,                              *, 21000,  -1
+    Hoodie_Black,                             *, 21000,  -1
+    HikingJacket_Black,                       *, 16000,  -1
+    PressVest_Blue,                           *, 30000,  -1
+    PoliceVest,                               *, 30000,  -1
+    GorkaEJacket_PautRev,                     *, 14000,  -1
+    JungleBoots_Black,                        *, 12000,  -1
+    WorkingGloves_Brown,                      *, 10000,  -1
+    TacticalGloves_Black,                     *, 10000,  -1
+    BeanieHat_Grey,                           *, 1000,   -1
+    BeanieHat_Black,                          *, 1000,   -1
+
+<Category> Оружие
+	SFP_WinM1912Shotgun,                     W, 20000,  -1
+    Ammo_556x45,                             *, 1600,   -1
+
+<Category> Противогазы
+    SPG_GasMask_MAG3L,                          *, 55000,  -1
+    SPG_GasMask_Filter_Base,                    *, 5000,   -1
+
+<Category> Инструменты
+    PZ_Dosimetr1,                            *, 1000,   -1
+    PZ_Dosimetr2,                            *, 3000,   -1      
+    PZ_Tester,                               *, 1500,   -1
+    PZ_IglaBox,                              *,  600,   -1
+    Flashlight,                              *, 1000,   -1
+    Rope,                                    *,  600,   -1
+    Battery9V,                               *,   50,   -1
+    ItemPDA,                                 *, 1000,   -1
+    Headtorch_Grey,                          *, 3000,   -1
+    Pot,                                     *,  200,   -1
+    Chemlight_Rad,                           *,  200,   -1
+    CombatKnife,                             *, 3000,   -1
+    LeatherSewingKit,                        *, 1000,   -1
+    WeaponCleaningKit,                       *, 5000,   -1
+	SewingKit,                               *, 1000,   -1
+	Tripod,                                  *, 1000,   -1
+	Matchbox,                                *,  100,   -1
+	Whetstone,                               *,  300,   -1
+
+<Category> Медицина
+    PZ_Antirad_2tab,                     *, 1000,   -1
+    PZ_Rad_X,                            *, 3000,   -1      
+    SalineBag,                           *, 2500,   -1
+    BloodBagEmpty,                       *, 1000,   -1
+    FirstAidKit,                         *,  600,   -1
+    BandageDressing,                     *,   50,   -1
+    BloodTestKit,                        *, 1000,   -1
+    IodineTincture,                      *, 3000,   -1
+    Heatpack,                            *,  200,   -1
+    AMS_POX,                             *, 5000,   -1
+    Syringe,                             *, 3000,   -1
+    StartKitIV,                          *, 1000,   -1
+    CharcoalTablets,                     *, 1000,   -1
+	DisinfectantAlcohol,                 *, 1000,   -1
+	PurificationTablets,                 *, 1000,   -1
+	VitaminBottle,                       *, 2100,   -1
+	SK_Medkit,                           *, 3000,   -1
+	PainkillerTablets,                   *, 1300,   -1
 	
 // 	Торговец Бандиты ID 10 
 <Trader> Пуля  
@@ -1635,7 +1865,7 @@
 	<Category> Склад базы Нейтралов
 	
 // 	Торговец Трифан СТАРТОВАЯ ЛОКА ID 14
-<Trader> Трифаныч   
+<Trader> Трыфан   
 	<Category> Склад 
 		
 		
