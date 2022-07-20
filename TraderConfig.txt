@@ -30,7 +30,7 @@
 // Sidorovich Trader 
 <Trader> Борода
 	<Category> Склад
-		Potato,			                                *,		-1,			25
+		Potato,			                                *,		-1,			250
 		PorkCan,				                        *,		-1,			500
 		SodaCan_Kvass,			                        *,		-1,			250
 		Canteen,				                        *,		-1,			3000
@@ -199,147 +199,150 @@
 		FS_Poncho_green,							*,		200,	-1
 		FS_Poncho_ColorBase,						*,		200,	-1
 	
-	<Category> Backpacks
-	    aod_backpack_loner1_drybag,							*,		500,	-1
-		aod_backpack_loner2_drybag,							*,		500,	-1
-		aod_backpack_loner3_drybag,							*,		500,	-1
-		aod_backpack_loner4_drybag,							*,		500,	-1
-		aod_backpack_loner1_hunting,						*,		500,	-1
-		aod_backpack_loner2_hunting,						*,		500,	-1
-		aod_backpack_loner3_hunting,						*,		500,	-1
-		aod_backpack_loner4_hunting,						*,		500,	-1
-		Bridger_AoD_Back,									*,		750,	-1
+	<Category> Рюкзаки
+	    FP4_HuntingTOP_Bag,							*,		150000,	-1
+		FS_3SumBag,							        *,		35000,	-1
+		IMP_Bag_Survival,							*,		8500,	-1
 		
-	<Category> Gloves
-	    WorkingGloves_Black,							*,		150,	-1
-		WorkingGloves_Beige,							*,		150,	-1
-		WorkingGloves_Brown,							*,		150,	-1
-		LeatherGloves_Black,							*,		150,	-1
-		LeatherGloves_Natural,							*,		150,	-1
-		LeatherGloves_Beige,							*,		150,	-1
-		LeatherGloves_Brown,							*,		150,	-1
+	<Category> Перчатки
+	    OMNOGloves_Gray,							*,		1500,	-1
+		OMNOGloves_Brown,							*,		1500,	-1
+		FP4_MiniGloves_Brown,						*,		2150,	-1
 		
-	<Category> Pants
-	    Zorya_Sunrise_AoD_Loner_Pants,					*,		300,	-1
-		Zorya_Sunrise_AoD_Loner_v1_Pants,				*,		300,	-1
-		Zorya_Sunrise_AoD_Loner_v2_Pants,				*,		300,	-1
-		FS_ProPantsST,									*,		450,	-1
-		FS_ProPantsST_ColorBase,						*,		450,	-1
-		FS_ST_Pants_ColorBase,							*,		450,	-1
-		FS_ST_Pants_Tan,								*,		450,	-1
-		FS_ST_Pants_Netral,								*,		450,	-1
-		FS_ST_Pants_Netral2,							*,		450,	-1
+	<Category> Штаны
+	    KK_CargoPants_Netr1,					*,		2300,	-1
+		KK_CargoPants_Netr2,				    *,		2300,	-1
+		KK_TacticalPants_Odin,				    *,		4300,	-1
+		XS_EQP_PANTS_GorkaPant_loner01,			*,		3450,	-1
+		XS_EQP_PANTS_GorkaPant_loner02,			*,		3450,	-1
 		
-	<Category> Shoes
-	    MilitaryBoots_Beige,							*,		200,	-1
-		MilitaryBoots_Black,							*,		200,	-1
-		MilitaryBoots_Brown,							*,		200,	-1
-	    JungleBoots_Beige,								*,		200,	-1
-		JungleBoots_Black,								*,		200,	-1
-		JungleBoots_Brown,								*,		200,	-1
-		JungleBoots_Olive,								*,		200,	-1
+	<Category> Обувь
+	    MilitaryBoots_Beige,							*,		2200,	-1
+		MilitaryBoots_Black,							*,		2200,	-1
+		MilitaryBoots_Brown,							*,		2200,	-1
+	    JungleBoots_Beige,								*,		2500,	-1
+		JungleBoots_Black,								*,		2500,	-1
+		JungleBoots_Brown,								*,		2500,	-1
+		JungleBoots_Olive,								*,		2500,	-1
 		
 	<Category> 
 // Ecologist Trader
-<Trader> Professor Sakharov
-	<Category> Documents
-		dzn_athena_planning,			*,		-1,			5000
-		dzn_athena_action1,				*,		-1,			5000
-		dzn_athena_action2,				*,		-1,			5000
-		dzn_netanyas_log,				*,		-1,			5000
-		dzn_athena3_august,				*,		-1,			5000
-		dzn_athena3_exp1,				*,		-1,			5000
-		dzn_athena3_exp2,				*,		-1,			5000
-		dzn_athena3_october,			*,		-1,			5000
-		dzn_module_card,				*,		-1,			5000
-		dzn_module_lantia,				*,		-1,			5000
-		dzn_module_surge,				*,		-1,			5000
-		dzn_module_ext,					*,		-1,			5000
+<Trader> Профессор
+	<Category> Документы
+		FS_Document_1,			    *,		-1,			15000
+		FS_Document_2,				*,		-1,			25000
+		FS_Document_3,				*,		-1,			35000
 
-	<Category> Zone Equipment
-		Battery9V,									*,		80,			40
-		Geigercounter_Sova,							*,		-1,			500
-		GasMask_Filter,								*,		1000,		425
-		Sova_Detector_Svarog,						*,		400000,		200000
-		Sova_Detector_Velas,						*,		200000,		100000
-		Sova_Detector_Bear,							*,		100000,		50000
-		Sova_Detector_Otklik,						*,		50000,		25000
-		GeigerCounter,								*,		1000,		500
-		Geigercounter_Opal,							*,		2000,		1000
-		Geigercounter_Sova,							*,		3000,		1500
-		Geigercounter_Osa,							*,		4000,		2000
-		dzn_apsi,									*,		8000,		4000
-		dzn_detector,								*,		60000,		30000
+	<Category> Экипировка
+		Battery9V,									    *,		80,			40
+		Geigercounter_Sova,							    *,		-1,			500
+		GasMask_Filter,								    *,		1000,		425
+		PZ_Dosimetr3,						            *,		4000,		200
+		PZ_Dosimetr4,						            *,		8000,		2000
+		PZ_Dosimetr5,						            *,		12000,		5000
+		PZ_Tester,						                *,		3000,		1250
+		PZ_IglaBox,							            *,		1000,		-1
+		ItemPDA,							            *,		2000,		1000
+		Headtorch_Grey,                                 *,      -1,         5000
+        Headtorch_Black,                                *,      -1,         5000
+        PortableGasLamp,                                *,      -1,         5000
+        GardenLime,                                     *,      -1,         25000
+        Chemlight_Blue,                                 *,      -1,         100
+        Hook,                                           *,      -1,         100
+        Binoculars,                                     *,      -1,         3000
+        Rangefinder,                                    *,      -1,         10000
+        Cleaver,                                        *,      -1,         1000
+        Hatchet,                                        *,      -1,         1000
+        CombatKnife,                                    *,      -1,         5000
+        HuntingKnife,                                   *,      -1,         100
+        UniversalLight,                                 *,      -1,         1500
+        TraderPlus_Wallet,                              *,      -1,         5000
+        AlarmClock_Green,                               *,      -1,         3000
+        KitchenTimer,                                   *,      -1,         100
+        Pen_Black,                                      *,      -1,         100
+        SmallProtectorCase,                             *,      -1,         15000
+        BP_CanisterGasoline_1G,                         *,      -1,         10000
+        BP_CanisterGasoline_5l,                         *,      -1,         0000
+        PortableGasStove,                               *,      -1,         10000
+        Bp_Bowl,                                        *,      -1,         500
+        BP_VintageLighter,                              *,      -1,         100
+        BP1_Cotelok,                                    *,      -1,         1000
+        LeatherSewingKit,                               *,      -1,         3000
+        WeaponCleaningKit,                              *,      -1,         8000
+        SewingKit,                                      *,      -1,         1000
+        Tripod,                                         *,      -1,         2500
+        OrienteeringCompass,                            *,      -1,         5000
+        BP_Watch,                                       *,      -1,         100
+        PetrolLighter,                                  *,      -1,         1000
+        Whetstone,                                      *,      -1,         1000
+        Matchbox,                                       *,      -1,         100
 		
-	<Category> Medical
-		Rag,						1,		10,			10
-		BandageDressing,			2,		30,			15
-		BloodTestKit,				*,		50,			25
-		InjectionVial,				*,		50, 		25
-		Thermometer,				*,		50,			25
-		DisinfectantSpray,			*,		80,			40
-		Syringe,					*,		80, 		40
-		Heatpack,					*,		100,		50
-		StartKitIV,					*,		100,		50
-		SalineBag,					*,		150,		75
-		BloodBagEmpty,				*,		180,		90
-		FirstAidKit,				*,		200,		100
-		Defibrillator,				*,		350, 		175
-		CharcoalTablets,			*,		20,			10
-		DisinfectantAlcohol,		*,		40,			20
-		VitaminBottle,				*,		60,			30
-		TetracyclineAntibiotics,	*,		80,			40
-		PainkillerTablets,			*,		100,		50
-		Epinephrine,				*,		200,		100
-		Morphine,					*,		250,		125
-		AntiChemInjector,			*,		10000,		2000
-		RadiationCure,				*,		10000,		2000
-		AntiRadPills,				*,		2000,		1000
+	<Category> Медицина
+		Rag,						1,		-1,			10
+		BandageDressing,			2,		-1,			150
+		BloodTestKit,				*,		-1,			250
+		InjectionVial,				*,		-1, 		25
+		Thermometer,				*,		-1,			125
+		DisinfectantSpray,			*,		-1,			400
+		Syringe,					*,		-1, 		40
+		Heatpack,					*,		-1,		    50
+		StartKitIV,					*,		-1,		    50
+		SalineBag,					*,		-1,		    1750
+		BloodBagEmpty,				*,		-1,		    290
+		FirstAidKit,				*,		-1,		    100
+		CharcoalTablets,			*,		-1,			460
+		DisinfectantAlcohol,		*,		-1,			1200
+		VitaminBottle,				*,		-1,			3000
+		PainkillerTablets,			*,		-1,		    1500
+		Morphine,					*,		-1,		    3125
+		AntiChemInjector,			*,		-1,		    15000
+		PZ_Antirad_2tab,            *,      -1,         300
+        PZ_Rad_X,                   *,      -1,         1000
+        SK_Medkit,                  *,      -1,         3500
+		SK_MedkitBlue,              *,      -1,         7500
+		SK_MedkitYelou,             *,      -1,         10000
 		
-	<Category> Artifacts
-		DW_ArtContainer1,			*,		700000,		250000
-		DW_ArtContainer,			*,		1000000,	400000
-		GayKa,						*,		100,		20
-		art_batareyka,				*,		-1,			10000
-		art_busy,					*,		-1,			9800
-		art_dusha,					*,		-1,			9600
-		art_glaz,					*,		-1,			9400
-		art_gravi,					*,		-1,			9200
-		art_izolator,				*,		-1,			8600
-		art_kameniy_cvetok,			*,		-1,			8400
-		art_kolobok,				*,		-1,			8200
-		art_kompas,					*,		-1,			7800
-		art_kristal,				*,		-1,			7600
-		art_krov_kamnya,			*,		-1,			7400
-		art_myaso,					*,		-1,			7200
-		art_oasis,					*,		-1,			6800
-		art_plamya,					*,		-1,			6600
-		art_pustishka,				*,		-1,			5000
-		art_puzir,					*,		-1,			5000
-		art_ribka,					*,		-1,			5000
-		art_shar,					*,		-1,			5000
-		art_shturval,				*,		-1,			5000
-		art_snejinka,				*,		-1,			5000
-		art_svet,					*,		-1,			5000
-		art_vivert,					*,		-1,			5000
-		art_vspishka,				*,		-1,			5000
-		art_zvezda,					*,		-1,			5000
-		art_plenka,					*,		-1,			5000
-		art_meduza,					*,		-1,			5000
+	<Category> Артефакты
+		SA_Detector_Bear,			*,		700000,		250000
+		SA_Detector_Otklik,			*,		50000,	    10000
+		SArt_Belt2,					*,		150000,		20000
+		SK_ART_Case,				*,		170000,		30000
+		SK_ART_Case3,				*,		50000,		10000
+		XS_RP_OTHER_SmallCase_ART,	*,		250000,		70000
+		art_batareyka,				*,		-1,			100000
+		art_busy,					*,		-1,			98000
+		art_glaz,					*,		-1,			29400
+		art_gravi,					*,		-1,			18000
+		art_kameniy_cvetok,			*,		-1,			25400
+		art_kolobok,				*,		-1,			38200
+		art_kristal,				*,		-1,			47600
+		art_krov_kamnya,			*,		-1,			27000
+		art_myaso,					*,		-1,			25000
+		art_plamya,					*,		-1,			26600
+		art_pustishka,				*,		-1,			15000
+		art_puzir,					*,		-1,			35000
+		art_ribka,					*,		-1,			150000
+		art_shar,					*,		-1,			23900
+		art_shturval,				*,		-1,			190000
+		art_snejinka,				*,		-1,			50000
+		art_svet,					*,		-1,			32000
+		art_vivert,					*,		-1,			12000
+		art_vspishka,				*,		-1,			25000
+		art_zvezda,					*,		-1,			35000
 		
 	<Category> Mutant Parts
 		Mutant_AoD_Pdog_Tail,						*,		-1,		1000
-		FS_KrovoSOS_Head_BolotTvar,					*,		-1,		2000
-		FS_KrovoSOS_Head_Dark,						*,		-1,		2000
-		FS_KrovoSOS_Head_blood,						*,		-1,		2000
-		FS_KrovoSOS_Tentacles,						*,		-1,		1600
-		FS_KrovoSOS_Head,							*,		-1,		2000
-		FS_Kontroler_Brain,							*,		-1,		6000
-		FS_Kaban_LeftLeg,							*,		-1,		1600
-		FS_Kaban_RightLeg,							*,		-1,		1600
-		FS_Kaban_Head,								*,		-1,		2000
-		FS_Kaban_Tors,								*,		-1,		1800
-		FS_Plot_Golova,								*,		-1,		1000
+		FS_KrovoSOS_Head_BolotTvar,					*,		-1,		20000
+		FS_KrovoSOS_Head_Dark,						*,		-1,		12000
+		FS_KrovoSOS_Head_blood,						*,		-1,		15000
+		FS_KrovoSOS_Tentacles,						*,		-1,		5000
+		FS_KrovoSOS_Head,							*,		-1,		10000
+		FS_Kontroler_Brain,							*,		-1,		70000
+		XZ_Boar_brain,							*,		-1,		2000
+		XZ_Burer_brain,							*,		-1,		2000
+		XZ_Cat_Bayn_brain,								*,		-1,		2000
+		XZ_Dog_brain,								*,		-1,		1800
+		XZ_Fresh_brain,								*,		-1,		1000
 		FS_Plot_Pelvis,								*,		-1,		1000
 		FS_Tark_Roga,								*,		-1,		3600
 		FS_Tark_Lapa,								*,		-1,		3600
