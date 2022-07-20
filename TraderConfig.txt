@@ -35,10 +35,16 @@
 		Potato,			                                *,		250,		  -1
 		Apple,			                                *,		3250,		  -1
 		PorkCan,				                        *,		2500,		  -1
+		SpaghettiCan,				                    *,		8500,		  -1
 		DeadRabbit,				                        *,		4500,		  -1
+		CowSteakMeat,				                    *,		24500,		  -1
+		Rak,				                    		*,		300000,		  -1
+		Mackerel,				                        *,		1500,		  -1
 		FP4_baton,				                        *,		5500,		  -1
+		FP4_Banka_Gribi,				                *,		9500,		  -1
 		FS_Bread,				                        *,		5500,		  -1
 		SFP_RusIRP_Goletos_Green,				        *,		3500,		  -1
+		SFP_RusIRP_Goletos_Blue,				        *,		3500,		  -1
 		SFP_RusIRP_Cofe,				       			*,		13500,		  -1
 		SFP_RusIRP_KashaRice,				            *,		2900,		  -1
 		SFP_RusIRP_MeatFasolFresh,				        *,		2900,		  -1
@@ -46,17 +52,21 @@
 		FS_Buter,				            			*,		8900,		  -1
 		FS_ITEM_Kolbas,				            		*,		18900,		  -1
 		FS_ITEM_IRP_UKR,				            	*,		28000,		  -1
+		
 		SodaCan_Kvass,			                        *,		1250,		  -1
+		BP1_baltika9,			                        *,		1250,		  -1
+		SodaCan_Cola,			                        *,		3250,		  -1
 		BP1_tarhun,			                        	*,		3250,		  -1
 		WaterBottle,				                    *,		2000,		  -1
 		Canteen,				                        *,		3000,		  -1
 		SFP_Vodka_Kazak,		                        *,		5000,		  -1
 		SFP_Vodka_Rus,		                        	*,		5000,		  -1
+		FS_ITEM_VODKA,		                        	*,		5000,		  -1
 		XS_RP_FOOD_Choco_Hematogen,		                *,		5000,		  -1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Сигареты | ENGName, *,-1,-1
 		BP_Cigarette_Pak,		                        *,		2000,		  -1
-		-----------------------------------------------------------------------, *,-1,-1
+		CP_JointSkunk,		                        	*,		32000,		  -1
+		BP_cigare_pack,		                        	*,		2000,		  -1
 		---------- Категория - ПЗ | ENGName, *,-1,-1
         PZ_Dosimetr1,                                   *,      3500,         -1
         PZ_Dosimetr3,                                   *,      5000,         -1
@@ -64,7 +74,6 @@
 		PZ_Dosimetr5,                                   *,      100000,        -1
         PZ_Tester,                                      *,      7000,         -1
         PZ_IglaBox,                                     *,      5000,         -1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Барахло | ENGName, *,-1,-1
         Flashlight,                                     *,      1000,         -1
         Battery9V,                                      *,      100,          -1
@@ -92,7 +101,8 @@
 		BaseRadio,                               		*,      50000,        -1
         SFP_ArmyRadio169,                               *,      5000,         -1
         AlarmClock_Green,                               *,      3000,         -1
-        KitchenTimer,                                   *,      100,          -1
+		KitchenTimer,                                   *,      100,          -1
+        FS_SoivetKruzka,                                *,      100,          -1
         Pen_Black,                                      *,      100,          -1
         SmallProtectorCase,                             *,      15000,        -1
         PortableGasStove,                               *,      10000,        -1
@@ -112,7 +122,6 @@
 		M73_Headphones_Yellow,                          *,      10000,          -1
 		SmallProtectorCase,                             *,      17200,        -1
 		Megaphone,                             			*,      317200,       -1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - БП | ENGName, *,-1,-1
         BP_Watch,                                       	*,      100,          -1
 		Bp_Bowl,                                        	*,      500,          -1
@@ -126,7 +135,6 @@
 		BP_CanisterGasoline_5l,                                    *,      12000,         -1
 		BP_Ranec_Med,                                    		   *,      10000,         -1
 		BP3_BluTape,                                    		   *,      10000,        -1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Медицина | ENGName, *,-1,-1
 		Rag,						*,		10,			    -1
 		BandageDressing,			*,		150,			-1
@@ -153,11 +161,9 @@
 		Morphine,					*,		3125,		    -1
 		Epinephrine,				*,		13125,		    -1
 		AntiChemInjector,			*,		15000,		    -1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - ПЗ | ENGName, *,-1,-1
 		PZ_Antirad_2tab,            *,      300,            -1
         PZ_Rad_X,                   *,      1500,           -1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - АМС | ENGName, *,-1,-1
 		AMS_Tourniquet,				    *,		1500,			-1
 		AMS_FirstAidKit,                *,      15000,          -1
@@ -172,15 +178,21 @@
 		AMS_WaterStraw,                 *,      7000,          -1
 		AMS_Heatpack,                   *,      3000,          -1
 		AMS_Vikasol,                    *,      1000,          -1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - СК | ENGName, *,-1,-1
         SK_Medkit,                  	*,      8000,           -1
 		SK_MedkitBlue,                  *,      9000,           -1
 		SK_MedkitYelou,                 *,      15000,           -1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - АЙ2 | ENGName, *,-1,-1
         Medkit_AI2_Yellow,              *,      16000,           -1
 		Medkit_AI2_Blue,                *,      26000,           -1
+		---------- Категория - Касеты | ENGName, *,-1,-1
+        YK_Cassette_Lydi,              *,      16000,           -1
+		---------- Категория - Поставка алкоголя | ENGName, *,-1,-1
+        XS_RP_DRINKS_Absolute,              *,      16000,           16000
+		XS_RP_DRINKS_Jack,              	*,      16000,           16000
+		---------- Категория - Скупка | ENGName, *,-1,-1
+		XS_RP_Other_Journal_UT,	        *,		-1,	    500
+		-----------------------------------------------------------------------, *,-1,-1
 		
 	<Category> Снаряга Скадовск
 	    -----------------------------------------------------------------------, *,-1,-1
@@ -194,33 +206,27 @@
 		WitchHood_Black,							*,		300,	-1
 		WitchHood_Brown,							*,		300,	-1
 		WitchHood_Red,								*,		300,	-1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Противогазы Скадовск | ENGName, *,-1,-1
 		SPG_GasMask_MAG3L,							*,		55000,	-1
 		SPG_GasMask_Filter_Base,					*,		5000,	-1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Пончо и плащи | ENGName, *,-1,-1
 		FS_Poncho_black,							*,		200,	-1
 		FS_Poncho_green,							*,		200,	-1
 		FS_Poncho_ColorBase,						*,		200,	-1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Рюкзаки | ENGName, *,-1,-1
 	    FP4_HuntingTOP_Bag,							*,		150000,	-1
 		FS_3SumBag,							        *,		35000,	-1
 		IMP_Bag_Survival,							*,		8500,	-1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Перчатки | ENGName, *,-1,-1
 	    OMNOGloves_Gray,							*,		1500,	-1
 		OMNOGloves_Brown,							*,		1500,	-1
 		FP4_MiniGloves_Brown,						*,		2150,	-1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Штаны | ENGName, *,-1,-1
 	    KK_CargoPants_Netr1,					*,		2300,	-1
 		KK_CargoPants_Netr2,				    *,		2300,	-1
 		KK_TacticalPants_Odin,				    *,		4300,	-1
 		XS_EQP_PANTS_GorkaPant_loner01,			*,		3450,	-1
 		XS_EQP_PANTS_GorkaPant_loner02,			*,		3450,	-1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Обувь | ENGName, *,-1,-1
 	    MilitaryBoots_Beige,							*,		2200,	-1
 		MilitaryBoots_Black,							*,		2200,	-1
@@ -229,7 +235,6 @@
 		JungleBoots_Black,								*,		2500,	-1
 		JungleBoots_Brown,								*,		2500,	-1
 		JungleBoots_Olive,								*,		2500,	-1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Поставка | ENGName, *,-1,-1
 		SGE_Stalker_Sunrise_Jacket,						*,		5000,		    500
 		SGE_Stalker_Sunrise_Pants,						*,		5000,		    500
@@ -255,18 +260,15 @@
 		TacticalShirt_Olive,					        *,		4000,		    400
 		XS_EQP_VEST_SUNRISE_GreenWater,				    *,		3000,		    300
 		Msp_ArmyBag,									*,		52250,			522
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Стволы | ENGName, *,-1,-1
 		Mosin9130,				W,		15000,		    -1
 		AK74,				    W,		45000,		    -1
 		Vintorez,				W,		100000,			-1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Обвесы | ENGName, *,-1,-1
 		AK74_WoodBttstck,			*,		1000,		    -1
 		AK74_Hndgrd,				*,		1000,		    -1
 		Mag_AK74_30Rnd,				M,		5000,			-1
 		Mag_AK74_45Rnd,				M,		7000,			-1
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Детекторы и Кейс | ENGName, *,-1,-1
 		SA_Detector_Otklik,         *,      65000,      16500
         SK_ART_Case3,               *,      30000,      13000
@@ -288,7 +290,6 @@
         art_plamya,                 *,      -1,         11000
         art_shar,                   *,      -1,         1500
         art_krov_kamnya,            *,      -1,         6500
-		-----------------------------------------------------------------------, *,-1,-1
 		---------- Категория - Мутанты | ENGName, *,-1,-1
 		FS_KrovoSOS_Head_BolotTvar,					*,		-1,		2000
 		FS_KrovoSOS_Head_Dark,						*,		-1,		2000
@@ -327,8 +328,6 @@
 		XS_MUT_BloodSucker_Tentacle_Albinos,	    *,		-1,	    3500
 		XS_MUT_BloodSucker_Tentacle_Bolot,	        *,		-1,	    4100
 		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Скупка | ENGName, *,-1,-1
-		XS_RP_Other_Journal_UT,	        *,		-1,	    500
 		
 // 	Ученые профессор Сахаров на бункер Торговец ID 1 - Сахоров Профессор
 <Trader> Профессор Сахоров 
@@ -1295,167 +1294,7 @@
 <Trader> Гаваец
 	<Category> 	Склад на Янове
 		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Питание | ENGName, *,-1,-1
-		Potato,			                                *,		250,		  -1
-		Apple,			                                *,		3250,		  -1
-		PorkCan,				                        *,		2500,		  -1
-		DeadRabbit,				                        *,		4500,		  -1
-		FP4_baton,				                        *,		5500,		  -1
-		FS_Bread,				                        *,		5500,		  -1
-		SFP_RusIRP_Goletos_Green,				        *,		3500,		  -1
-		SFP_RusIRP_Cofe,				       			*,		13500,		  -1
-		SFP_RusIRP_KashaRice,				            *,		2900,		  -1
-		SFP_RusIRP_MeatFasolFresh,				        *,		2900,		  -1
-		SFP_Vodka_Pseno,				        		*,		12900,		  -1
-		FS_Buter,				            			*,		8900,		  -1
-		FS_ITEM_Kolbas,				            		*,		18900,		  -1
-		FS_ITEM_IRP_UKR,				            	*,		28000,		  -1
-		SodaCan_Kvass,			                        *,		1250,		  -1
-		BP1_tarhun,			                        	*,		3250,		  -1
-		WaterBottle,				                    *,		2000,		  -1
-		Canteen,				                        *,		3000,		  -1
-		SFP_Vodka_Kazak,		                        *,		5000,		  -1
-		SFP_Vodka_Rus,		                        	*,		5000,		  -1
-		XS_RP_FOOD_Choco_Hematogen,		                *,		5000,		  -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Сигареты | ENGName, *,-1,-1
-		BP_Cigarette_Pak,		                        *,		2000,		  -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - ПЗ | ENGName, *,-1,-1
-        PZ_Dosimetr1,                                   *,      3500,         -1
-        PZ_Dosimetr3,                                   *,      5000,         -1
-		PZ_Dosimetr4,                                   *,      10000,        -1
-		PZ_Dosimetr5,                                   *,      100000,        -1
-        PZ_Tester,                                      *,      7000,         -1
-        PZ_IglaBox,                                     *,      5000,         -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Барахло | ENGName, *,-1,-1
-        Flashlight,                                     *,      1000,         -1
-        Battery9V,                                      *,      100,          -1
-        ItemPDA,                                        *,      5000,         -1
-		Headtorch_Grey,                                 *,      5000,         -1
-        Headtorch_Black,                                *,      5000,         -1
-        PortableGasLamp,                                *,      5000,         -1
-		SmallGasCanister,                               *,      3000,        -1
-		MediumGasCanister,                              *,      8000,        -1
-		Rope,                                           *,      500,          -1
-		LargeGasCanister,                               *,      16000,        -1
-        GardenLime,                                     *,      25000,        -1
-        Chemlight_Blue,                                 *,      100,          -1
-		Chemlight_White,                                *,      100,          -1
-		RDG2SmokeGrenade_White,                         *,      10000,          -1
-        Hook,                                           *,      100,          -1
-        Binoculars,                                     *,      3000,         -1
-        Rangefinder,                                    *,      10000,        -1
-        Cleaver,                                        *,      1000,         -1
-        Hatchet,                                        *,      1000,         -1
-        CombatKnife,                                    *,      5000,         -1
-        HuntingKnife,                                   *,      100,          -1
-        UniversalLight,                                 *,      1500,         -1
-		YK_Radio,                               		*,      30000,        -1
-		BaseRadio,                               		*,      50000,        -1
-        SFP_ArmyRadio169,                               *,      5000,         -1
-        AlarmClock_Green,                               *,      3000,         -1
-        KitchenTimer,                                   *,      100,          -1
-        Pen_Black,                                      *,      100,          -1
-        SmallProtectorCase,                             *,      15000,        -1
-        PortableGasStove,                               *,      10000,        -1
-        LeatherSewingKit,                               *,      3000,         -1
-		EpoxyPutty,                               		*,      4000,         -1
-        WeaponCleaningKit,                              *,      8000,         -1
-        SewingKit,                                      *,      1000,         -1
-		DuctTape,                                       *,      5000,         -1
-		Pot,                                        	*,      2500,         -1
-		FryingPan,                                      *,      2500,         -1
-        Tripod,                                         *,      2500,         -1
-		Pickaxe,                                        *,      13500,        -1
-        OrienteeringCompass,                            *,      5000,         -1
-		PetrolLighter,                                  *,      1000,         -1
-        Whetstone,                                      *,      1000,         -1
-        Matchbox,                                       *,      100,          -1
-		M73_Headphones_Yellow,                          *,      10000,          -1
-		SmallProtectorCase,                             *,      17200,        -1
-		Megaphone,                             			*,      317200,       -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - БП | ENGName, *,-1,-1
-        BP_Watch,                                       	*,      100,          -1
-		Bp_Bowl,                                        	*,      500,          -1
-		Bp_Bowl_1,                                        	*,      500,          -1
-		Bp_Bowl_2,                                        	*,      500,          -1
-		BpGathookHunt,                                      *,      1500,         -1
-        BP_VintageLighter,                              	*,      2100,         -1
-        BP1_Cotelok,                                    	*,      1000,         -1
-		BP1_Food_ban_sgushenka,                                    *,      3200,         -1
-		BP_CanisterGasoline_1G,                                    *,      10000,         -1
-		BP_CanisterGasoline_5l,                                    *,      12000,         -1
-		BP_Ranec_Med,                                    		   *,      10000,         -1
-		BP3_BluTape,                                    		   *,      10000,        -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Медицина | ENGName, *,-1,-1
-		Rag,						*,		10,			    -1
-		BandageDressing,			*,		150,			-1
-		Bandaid_bandage,			*,		2000,			-1
-		FS_ITEM_BANDAGE,			*,		3000,			-1
-		BloodTestKit,				*,		250,			-1
-		InjectionVial,				*,		25, 		    -1
-		Thermometer,				*,		125,			-1
-		DisinfectantSpray,			*,		400,			-1
-		Syringe,					*,		40, 		    -1
-		Heatpack,					*,		50,		        -1
-		StartKitIV,					*,		500,		        -1
-		SalineBag,					*,		1750,		    -1
-		BloodBagEmpty,				*,		290,		    -1
-		Heatpack,					*,		290,		    -1
-		FirstAidKit,				*,		100,		    -1
-		CharcoalTablets,			*,		460,			-1
-		TetracyclineAntibiotics,	*,		3460,			-1
-		PurificationTablets,		*,		1460,			-1
-		DisinfectantAlcohol,		*,		1200,			-1
-		IodineTincture,				*,		1750,		    -1
-		VitaminBottle,				*,		3000,			-1
-		PainkillerTablets,			*,		1500,		    -1
-		Morphine,					*,		3125,		    -1
-		Epinephrine,				*,		13125,		    -1
-		AntiChemInjector,			*,		15000,		    -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - ПЗ | ENGName, *,-1,-1
-		PZ_Antirad_2tab,            *,      300,            -1
-        PZ_Rad_X,                   *,      1500,           -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - АМС | ENGName, *,-1,-1
-		AMS_Tourniquet,				    *,		1500,			-1
-		AMS_FirstAidKit,                *,      15000,          -1
-		AMS_Bandage,                    *,      5000,          -1
-		AMS_AntiSept,                   *,      8000,          -1
-		AMS_Polaris,                    *,      5000,          -1
-		AMS_Aspirin,                    *,      5000,          -1
-		AMS_Poter,                    	*,      5000,          -1
-		AMS_Energy,                     *,      5000,          -1
-		AMS_BandAid,                    *,      1000,          -1
-		AMS_MFAK,                    	*,      4000,          -1
-		AMS_WaterStraw,                 *,      7000,          -1
-		AMS_Heatpack,                   *,      3000,          -1
-		AMS_Vikasol,                    *,      1000,          -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - СК | ENGName, *,-1,-1
-        SK_Medkit,                  	*,      8000,           -1
-		SK_MedkitBlue,                  *,      9000,           -1
-		SK_MedkitYelou,                 *,      15000,           -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - АЙ2 | ENGName, *,-1,-1
-        Medkit_AI2_Yellow,              *,      16000,           -1
-		Medkit_AI2_Blue,                *,      26000,           -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Касеты | ENGName, *,-1,-1
-        YK_Cassette_Lydi,              *,      16000,           -1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Поставка алкоголя | ENGName, *,-1,-1
-        XS_RP_DRINKS_Absolute,              *,      16000,           16000
-		XS_RP_DRINKS_Jack,              	*,      16000,           16000
-	
-	<Category> Склад со снаряжением
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Амуниция и Одежда | ENGName, *,-1,-1	
+		----------- Амуниция и Одежда | ENGName, *,-1,-1	
 		Hoodie_Red,									        *,		3000,	-1
 		Hoodie_Grey,								        *,		3000,	-1
 		TacticalShirt_Olive,						        *,		2300,	-1
@@ -1490,12 +1329,12 @@
 		XS_EQP_HEAD_BallisticH_loner02,						*,		42000,	-1
 		XS_EQP_HEAD_BallisticH_loner01,						*,		42000,	-1
 		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Противогазы | ENGName, *,-1,-
+		----------- Противогазы | ENGName, *,-1,-
 		SPG_GasMask_MAG3L,			*,		70000,	-1
 	    SPG_GasMask_Container,		*,		35150,	-1
 		SPG_GasMask_Filter_Base,	*,		5150,	-1
 		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Оружие | ENGName, *,-1,-1
+		----------- Оружие | ENGName, *,-1,-1
 	    XS_WPN_SHOTGUNS_Spas12,							W,		42500,	-1
 		SVT40,											W,		87000,	-1
 	    B95,											W,		75000,	-1
@@ -1504,67 +1343,114 @@
 		M16A2,											W,		165000,	-1
 		SKS,											W,		20000,	-1
 		-----------------------------------------------------------------------, *,-1,-1
-		---------- Категория - Обвесы | ENGName, *,-1,-1
+		----------- Обвесы, *,-1,-1
 		Mag_SVT_10Rnd,											M,		10000,	-1
 		Mag_SR1M_18Rnd,											M,		18000,	-1
-		PUScopeOptic,											W,		90000,	-1
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Янов - Патроны | ENGName, *,-1,-1
-		Paper,					*,		1,	1
-		Ammo_380,				1,		1,		-1
-		Ammo_9x19,				1,		1,		-1
-		Ammo_22,				1,		1,		-1
-		Ammo_45ACP,				1,		1,		-1
-		Ammo_12gaPellets,		1,		3,		1
-		Ammo_12gaSlug,			1,		4,		2
-		Ammo_9x39,				1,		4,		2
-		Ammo_9x39AP,			1,		5,		3
-		Ammo_308Win,			1,		5,		3
-		Ammo_545x39,			1,		5,		3
-		Ammo_556x45,			1,		5,		3
-		Ammo_762x39,			1,		5,		3
-		Ammo_762x54,			1,		10,		6		
-		Ammo_556x45Tracer,		1,		10,		5
-		Ammo_545x39Tracer,		1,		10,		5
-		Ammo_308WinTracer,		1,		10,		5
-		Ammo_762x39Tracer,		1,		10,		5
-		Ammo_Flare,				1,		15,		7
-	    Ammo_FlareBlue,			1,		15,		7
-	    Ammo_FlareGreen,		1,		15,		7
-	    Ammo_FlareRed,			1,		15,		7
-		Ammo_762x54Tracer,		1,		20,		12		
-		// When changing Prices here keep in Mind that Players
-		// can just unpack the Ammoboxes and sell the Ammo seperatly!
-		// Originally the Ammoboxes buying Price is 20% less than
-		// buying single Ammo. The Selling Price is the same as
-		// selling the Ammo seperately.
-		AmmoBox_380_35rnd,		*,		28,		-1
-		AmmoBox_9x19_25rnd,		*,		20,		-1
-		AmmoBox_45ACP_25rnd,	*,		20,		-1
-		AmmoBox_22_50Rnd,		*,		60,		20
-		AmmoBox_00buck_10rnd,	*,		24,		10
-		AmmoBox_12gaSlug_10Rnd,	*,		32,		20
-		AmmoBox_9x39_20Rnd,		*,		32,		20
-		AmmoBox_9x39AP_20Rnd,	*,		80,		60
-		AmmoBox_308Win_20Rnd,	*,		80,		60
-		AmmoBox_545x39_20Rnd,	*,		80,		60
-		AmmoBox_556x45_20Rnd,	*,		80,		60
-		AmmoBox_762x39_20Rnd,	*,		80,		60
-		AmmoBox_762x54_20Rnd,	*,		200,	120		
-		AmmoBox_308WinTracer_20Rnd,		*,		160,	80
-		AmmoBox_545x39Tracer_20Rnd,		*,		160, 	80
-		AmmoBox_556x45Tracer_20Rnd,		*,		160,	80
-		AmmoBox_762x39Tracer_20Rnd,		*,		160,	80
-		AmmoBox_762x54Tracer_20Rnd,		*,		400,	200
-		-----------------------------------------------------------------------, *,-1,-1
-		---------- Обеспечение - Патроны | ENGName, *,-1,-1
-		SNAFU_Ammo_300ACC,		*,		1400,	1200
+		PUScopeOptic,											*,		90000,	-1
+	
 
 // 	Торговец Свобода ID 6 - Свобода
 <Trader> Ашотик
-	<Category> 	Склад Базы		
+	<Category> Склад Базы	
 		-----------------------------------------------------------------------, *,-1,-1
-		----------  - Противогазы | ENGName, *,-1,-1
+		---------- Категория - Амуниция и Одежда | ENGName, *,-1,-1	
+		TAG_free,									        *,		300,	-1
+		
+		XS_EQP_TacticalGloves_freedom01,					*,		1000,	-1
+		XS_EQP_TacticalGloves_freedom02,					*,		1000,	-1
+		
+		XS_EQP_MASK_Balaclava3H_freedom01,					*,		1000,	-1
+	    XS_EQP_MASK_Balaclava3H_freedom02,					*,		2000,	-1
+		XS_EQP_MASK_halfmask_freedom,						*,		2000,	-1
+		
+		XS_EQP_HG_fhat_Freedom,								*,		2000,	-1
+		
+		XS_EQP_HEADGEAR_K6_3_Freedom,						*,		25000,	-1
+		XS_EQP_HEAD_Mich2001_freedom01,						*,		12000,	-1
+		XS_EQP_HEAD_Mich2001_freedom02,						*,		12000,	-1
+		
+		XS_EQP_HEAD_BoonieHat_freedom01,									*,		1000,	-1
+		XS_EQP_HEAD_BoonieHat_freedom02,									*,		1000,	-1
+		
+		XS_EQP_JACKET_M65Jacket_freedom01,							    	*,		5000,	-1
+		XS_EQP_JACKET_M65Jacket_freedom02,							    	*,		5000,	-1
+		XS_EQP_JACKET_M65Jacket_freedom03,							    	*,		5000,	-1
+		XS_EQP_JACKET_M65Jacket_freedom04,							    	*,		5000,	-1
+		XS_EQP_JACKET_M65Jacket_freedom05,							    	*,		5000,	-1
+		
+	    XS_EQP_JACKET_GorkaJack_freedom02,							    	*,		5000,	-1
+		XS_EQP_JACKET_GorkaJack_freedom03,							    	*,		5000,	-1
+		XS_EQP_JACKET_GorkaJack_freedom04,							    	*,		5000,	-1
+		XS_EQP_JACKET_GorkaJack_freedom05,							    	*,		5000,	-1
+		
+		XS_EQP_JACKET_TacticalShirt_freedom01,							    *,		3000,	-1
+		XS_EQP_JACKET_TacticalShirt_freedom02,							    *,		3000,	-1
+		XS_EQP_JACKET_TacticalShirt_freedom03,							    *,		3000,	-1
+		XS_EQP_JACKET_TacticalShirt_freedom04,							    *,		3000,	-1
+		
+		XS_EPQ_PANTS_CargoPants_freedom01,							    	*,		4200,	-1
+		XS_EPQ_PANTS_CargoPants_freedom02,							    	*,		4200,	-1
+		XS_EPQ_PANTS_CargoPants_freedom03,							    	*,		4200,	-1
+		XS_EPQ_PANTS_CargoPants_freedom04,							    	*,		4200,	-1
+		XS_EPQ_PANTS_CargoPants_freedom05,							    	*,		4200,	-1
+		
+		XS_EQP_PANTS_GorkaPant_freedom01,							    	*,		2600,	-1
+		XS_EQP_PANTS_GorkaPant_freedom02,							    	*,		2600,	-1
+		XS_EQP_PANTS_GorkaPant_freedom03,							    	*,		2600,	-1
+		XS_EQP_PANTS_GorkaPant_freedom04,							    	*,		2600,	-1
+		XS_EQP_PANTS_GorkaPant_freedom05,							    	*,		2600,	-1
+		
+		XS_EQP_VEST_CapacityVest_freedom01,								    *,		6000,	-1
+		XS_EQP_VEST_CapacityVest_freedom02,								    *,		6000,	-1
+		XS_EQP_VEST_CapacityVest_freedom03,								    *,		6000,	-1
+		XS_EQP_VEST_CapacityVest_freedom04,								    *,		6000,	-1
+		
+		XS_EQP_VEST_PlateCarrier_freedom01,								    *,		10000,	-1
+		XS_EQP_VEST_PlateCarrier_freedom02,								    *,		10000,	-1
+		XS_EQP_VEST_PlateCarrier_freedom03,								    *,		10000,	-1
+		XS_EQP_VEST_PlateCarrier_freedom04,								    *,		10000,	-1
+		XS_EQP_VEST_PlateCarrier_freedom05,								    *,		10000,	-1
+		
+		XS_EQP_VEST_PlateCarrierHolster_freedom01,						*,		600,	-1
+		XS_EQP_VEST_PlateCarrierHolster_freedom02,						*,		600,	-1
+		XS_EQP_VEST_PlateCarrierHolster_freedom03,						*,		600,	-1
+		XS_EQP_VEST_PlateCarrierHolster_freedom04,						*,		600,	-1
+		XS_EQP_VEST_PlateCarrierHolster_freedom05,						*,		600,	-1
+		
+		XS_EQP_VEST_SUNRISE_Freedom,								    *,		25000,	-1
+		
+		XS_EQP_VEST_Cape_freedom,								    	*,		85000,	-1
+		
+		XS_EQP_BACKPACK_HuntB_freedom01,								    	*,		6600,	-1
+		XS_EQP_BACKPACK_MountainBag_freedom01,								    *,		8600,	-1
+		XS_EQP_BACKPACK_MountainBag_freedom02,								    *,		8600,	-1
+		XS_EQP_BACKPACK_TortillaBag_freedom01,								    *,		6000,	-1
+		XS_EQP_BACKPACK_TortillaBag_freedom02,								    *,		6000,	-1
+
+		BP2_Sweater_Blue,								    *,		5000,	-1
+		BP2_Sweater_Santa,								    *,		5000,	-1
+		FS_TacticalVest,								    *,		10000,	-1
+	    IMP_Mask_Balaclava_MARPAT,							*,		5150,	-1
+		IMP_Mask_Balaclava_NWU,								*,		5150,	-1
+		FP4_TacticalPants_WoodLand,				            *,		15150,	-1
+		FP4_TacticalPants_ttsco,				            *,		15150,	-1
+		FP4_SpecPants_tan,						            *,		15150,	-1
+		FP4_MiniGloves_Gray,					            *,		5500,	-1
+		
+		KK_JungleBoot_Netr1,					            *,		15500,	-1
+		
+		BP_Vogue_Glasses_Blue,						        *,		3000,	-1
+		BP_Vogue_Glasses_Yelo,						        *,		3000,	-1
+		BP_Mustang_Glasses_Yel,						        *,		3000,	-1
+		K_RPS_SmershVest_Green,						        *,		50300,	-1
+		K_RPS_SmershBag_Green,						        *,		23000,	-1
+		XS_EQP_VEST_PlateCarrier_loner01,			        *,		50000,	-1
+	    XS_EQP_VEST_PlateCarrierHolster_loner01,	        *,		5150,	-1
+		XS_EQP_VEST_PlateCarrierHolster_loner02,	        *,		5150,	-1
+		XS_EQP_HEAD_BallisticH_loner02,						*,		42000,	-1
+		XS_EQP_HEAD_BallisticH_loner01,						*,		42000,	-1
+		-----------------------------------------------------------------------, *,-1,-1
+		---------- Свобода - Противогазы | ENGName, *,-1,-1
 		SPG_GasMask_FM12,									*,		53000,	-1
 		SPG_GasMask_Filter_Base,							*,		5000,	-1
 		-----------------------------------------------------------------------, *,-1,-1
@@ -1605,6 +1491,11 @@
 		ACOGOptic,									*,		30000,	-1
 		---------- Свобода - Огород | ENGName, *,-1,-1
 		//тут завис, я не делал тут ничего, я ничего не понимаю, продолжи сам!!! Я сделал Бармена Свободы
+		CP_CigarettePack_CannabisS1,                 *, 50,   -1
+		CP_Cigarette,                          		 *, 50,  -1
+		CP_RollingPapers,                            *, 500,  -1
+		CP_CannabisSeedsPackBlue,                    *, 5000, -1
+		CP_TobaccoSeedsPack,                         *, 250,  -1
 		
 // 	Торговец Свобода Бар ID 7 
 <Trader> Свободный Бармэн 
@@ -1802,7 +1693,8 @@
 
 <Category> Оружие
 	SFP_WinM1912Shotgun,                     W, 20000,  -1
-    Ammo_556x45,                             *, 1600,   -1
+	Magnum,                     			 W, 13200,  -1
+	FS_m590_Shotgun,                     	 W, 42000,  -1
 
 <Category> Противогазы
     SPG_GasMask_MAG3L,                          *, 55000,  -1
@@ -1862,7 +1754,65 @@
 	
 // 	Торговец Нейтралы ID 13 
 <Trader> Шустрый   
-	<Category> Склад базы Нейтралов
+	<Category> Склад базы Нейтралов	
+		-----------------------------------------------------------------------, *,-1,-1
+		---------- Категория - Амуниция и Одежда | ENGName, *,-1,-1	
+		FS_TAG_Netrals,									    *,		300,	-1
+		
+		KK_Tactical_MiniGloves_base,					*,		1000,	-1
+		KK_TacticalGloves_Netr2,						*,		1000,	-1
+		
+		Balaclava3Holes_Black,					*,		1000,	-1
+	    KK_Balaclava_Netr1,						*,		2000,	-1
+		KK_Balaclava_Netr2,						*,		2000,	-1
+		
+		KK_BoonieHat_Netr1,						*,		2000,	-1
+		KK_BoonieHat_Netr2,						*,		2000,	-1
+		KK_BaseballCap_Netr1,					*,		1000,	-1
+		KK_BallisticHelmet_Netr1,						*,		25000,	-1
+		KK_BallisticHelmet_Netr2,						*,		25000,	-1
+		KK_Mich2001_Netr2,						*,		32000,	-1
+		KK_Mich2001_Netr1,						*,		32000,	-1
+	
+		KK_TacticalShirt_Netr1,							    	*,		2000,	-1
+		KK_TacticalShirt_Netr2,							    	*,		2000,	-1
+		KK_M65Jacket_Netr1,							    	*,		3000,	-1
+		KK_M65Jacket_Netr2,							    	*,		3000,	-1
+		KK_HuntingJacket_Netr1,							    	*,		5000,	-1
+		KK_HuntingJacket_Netr2,							    	*,		5000,	-1
+	    KK_GorkaJ_Netr1,							    	*,		5000,	-1
+		KK_GorkaJ_Netr2,							    	*,		5000,	-1
+		
+		KK_CapacityVest_Netr1,							    *,		17000,	-1
+		KK_CapacityVest_Netr2,							    *,		17000,	-1
+		KK_PlateCarrier_Netr1,							    *,		33000,	-1
+		KK_PlateCarrier_Netr2,							    *,		33000,	-1
+		KK_PlateCarrierHolster_Netr1,							    	*,		2600,	-1
+		KK_PlateCarrierHolster_Netr2,							    	*,		2600,	-1
+		
+		KK_CargoPants_Netr1,							    	*,		4200,	-1
+		KK_CargoPants_Netr2,							    	*,		4200,	-1
+		KK_GorkaP_Netr1,							    	*,		6200,	-1
+		KK_GorkaP_Netr2,							    	*,		6200,	-1
+		KK_HunterPants_Netr1,							    *,		7200,	-1
+		KK_HunterPants_Netr2,							    *,		7200,	-1
+		KK_TacticalPants_Netr1,							    	*,		5600,	-1
+		KK_TacticalPants_Netr2,							    	*,		5600,	-1
+		
+		KK_HuntingBag_Netr2,							    	*,		12600,	-1
+		KK_MountainBag_Netr2,							    	*,		12600,	-1
+		-----------------------------------------------------------------------, *,-1,-1
+		---------- Категория - Оружие | ENGName, *,-1,-1
+		AKM,							    	W,		190000,	-1
+		FS_MP153_baikal,						W,		33700,	-1
+		---------- Категория - Обвесы | ENGName, *,-1,-1
+		AK_WoodHndgrd,						*,		1480,	-1
+		AK_WoodBttstck,						*,		2800,	-1
+		Mag_AKM_30Rnd,						M,		8000,	-1
+		---------- Категория - Противогазы | ENGName, *,-1,-1
+		SPG_GasMask_PPM88,						*,		33700,	-1
+		SPG_GasMask_Filter_Base,				*,		5000,	-1
+
 	
 // 	Торговец Трифан СТАРТОВАЯ ЛОКА ID 14
 <Trader> Трыфан   
