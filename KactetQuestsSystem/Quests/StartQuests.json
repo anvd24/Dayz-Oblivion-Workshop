@@ -1,0 +1,279 @@
+[
+	{
+		"ID" : 1000,
+		"Cooldown": -1,
+		"TimeLimit" : 604800,
+		"Name": "«Вступление»",
+		"Description": "Иди сюда, Одиночка! Слушай, Тебе нужны наличные, а мне нужны опытные Одиночки! Ты помогаешь мне, я помогаю тебе, да? Вернитесь ко мне, когда закончите, за наградой!",
+		"RequiredQuests" : [],
+		"Targets" : [
+			{
+				"type" : "WaterBottle",
+				"questType": 2,
+				"count": 1,
+				"extra": "",
+				"description": "Возьмите с собой 1 бутылку воды",
+				"conditions": [-1, -1]
+			},
+			{
+				"type" : "BakedBeansCan",
+				"questType": 2,
+				"count": 1,
+				"extra": "",
+				"description": "Принесите 1 банку фасоли",
+				"conditions": [-1, -1]
+			}
+		],
+		"Rewards" : [
+			{
+				"type" : "TraderPlus_Money_Ruble500",
+				"count": 1,
+				"extra": "3",
+				"description" : "1500 рублей",
+				"conditions": [1, 1]
+			}
+		]
+	},
+	{
+		"ID" : 1001,
+		"Cooldown": 6000,
+		"TimeLimit" : 604800,
+		"Name": "«Встреча с людьми Волка»",
+		"Description": "Группа моих парней отправилась на поиски припасов, они должны были вернуться сюда несколько часов назад с ценным КПК для меня. Выйди и посмотри, что ты сможешь найти. Насколько я знаю Найбла, он бы спрятал его где-нибудь поблизости, если бы почуял какие-то неприятности.",
+		"RequiredQuests" : [1000],
+		"Targets" : [
+			{
+				"type" : "5036.768555 92.372505 1975.531372",
+				"questType": 7,
+				"count": 1,
+				"extra": "1",
+				"description": "Ищи Ниббла, если он ушел, найди КПК!",
+				"conditions": [100, -1]
+			},
+			{
+				"type" : "SFP_Tactical_PDA",
+				"questType": 2,
+				"count": 1,
+				"extra": "",
+				"description": "Вернуть КПК",
+				"conditions": [-1, -1]
+			}
+		],
+		"Rewards" : [
+			{
+				"type" : "TraderPlus_Money_Ruble500",
+				"count": 1,
+				"extra": "",
+				"description" : "500R",
+				"conditions": [1, 1]
+			}
+		]
+	},
+	{
+		"ID" : 1002,
+		"Cooldown": 6000,
+		"TimeLimit" : 604800,
+		"Name": "«Работа для Торговца»",
+		"Description": "Ты серьезно относишься к делу, и я это вижу. Я имею в виду, нам нужны такие парни, как ты. Мы проводим своего рода расследование с некоторыми другими трейдерами. Мы хотим открыть путь на Север, в центр Зоны. А ближе к центру что-то или кто-то пытается помешать нашему прогрессу. Как, черт возьми, этому Стрелку удалось проскользнуть, я не знаю. Видите ли, есть одна область, где ваш мозг начинает кипеть. Жуткое место. Короче говоря, пара парней шпионили для меня за этими пехотинцами недалеко отсюда. По-видимому, сотрудники научно-исследовательского института Агропром что-то раскопали. Что-то серьезное. Я уверен, что это как-то связано с центром Зоны. В любом случае, что бы они ни раскопали, это спрятано где-то на третьем этаже Института. И нам действительно нужны эти вещи. Ты понимаешь, что я имею в виду? Как только у вас будет портфель, не приносите его сюда. Отнеси это прямо Бармену. Он управляет баром Сталкер, баром 100 Рад. Я загружу координаты и все необходимые данные на ваш КПК. Ясно?",
+		"RequiredQuests" : [1001],
+		"Targets" : [
+			{
+				"type" : "1683.739 52.566 4055.449",
+				"questType": 7,
+				"count": 1,
+				"extra": "1",
+				"description": "Поиск секретного документа.",
+				"conditions": [100, -1]
+			},
+			{
+				"type" : "FS_Document_1",
+				"questType": 2,
+				"count": 1,
+				"extra": "",
+				"description": "Найти Секретный Документ",
+				"conditions": [-1, -1]
+			},
+			{
+				"type" : "4867.589 122.057 6671.410",
+				"questType": 7,
+				"count": 1,
+				"extra": "1",
+				"description": "Донеси документ до 100 Рад Бар.",
+				"conditions": [100, -1]
+			}
+		],
+		"Rewards" : [
+			{
+				"type" : "TraderPlus_Money_Ruble5000",
+				"count": 3,
+				"extra": "",
+				"description" : "150000R",
+				"conditions": [1, 1]
+			}
+		]
+	},
+	{
+		"ID" : 1003,
+		"Cooldown": 6000,
+		"TimeLimit" : 604800,
+		"Name": "«Вылазка за насыпь»",
+		"Description": "Прежде чем углубиться в Зону, необходимо пересечь старую железнодорожную насыпь. Единственный безопасный проход охраняется военными. Однако слева есть небольшой туннель, новички обычно проходят через него. Там вас будет ждать один из моих должников.",
+		"RequiredQuests" : [1002],
+		"Targets" : [
+			{
+				"type" : "4752.757 84.696 2142.457",
+				"questType": 7,
+				"count": 1,
+				"extra": "1",
+				"description": "Ищите проход через тоннель",
+				"conditions": [20, -1]
+			}
+		],
+		"Rewards" : [
+			{
+				"type" : "TraderPlus_Money_Ruble500",
+				"count": 1,
+				"extra": "",
+				"description" : "500R",
+				"conditions": [1, 1]
+			}
+		]
+	},
+	{
+		"ID" : 2000,
+		"Cooldown": -1,
+		"TimeLimit" : 604800,
+		"Name": "«Похмелье»",
+		"Description": "Братан, я вчера так безбожно пил, у меня щас лопнет голова, сгоняй за водярой, а я тебе дроби насыплю, уххх, быстрее только!",
+		"RequiredQuests" : [1000],
+		"Targets" : [
+			{
+				"type" : "Vodka",
+				"questType": 2,
+				"count": 1,
+				"extra": "",
+				"description": "Bring wolf a bottle of vodka",
+				"conditions": [-1, -1]
+			}
+		],
+		"Rewards" : [
+			{
+				"type" : "AmmoBox_00buck_10rnd",
+				"count": 6,
+				"extra": "",
+				"description" : "Дробь",
+				"conditions": [1, 1]
+			}
+		]
+	},
+	{
+		"ID" : 2001,
+		"Cooldown": -1,
+		"TimeLimit" : 604800,
+		"Name": "«Actions»",
+		"Description": "Lets see how you do!",
+		"RequiredQuests" : [],
+		"Targets" : [
+			{
+				"type" : "ActionBandageSelf",
+				"questType": 8,
+				"count": 1,
+				"extra": "",
+				"description": "Bandage your wounds once",
+				"conditions": [-1, -1]
+			},
+			{
+				"type" : "ActionDigWorms",
+				"questType": 8,
+				"count": 1,
+				"extra": "",
+				"description": "Dig up for worms",
+				"conditions": [-1, -1]
+			},
+			{
+				"type" : "ActionMineBush",
+				"questType": 8,
+				"count": 1,
+				"extra": "",
+				"description": "Cut down a bush",
+				"conditions": [-1, -1]
+			},
+			{
+				"type" : "ActionSkinning",
+				"questType": 8,
+				"count": 1,
+				"extra": "AnimalBase",
+				"description": "Skin an animal for food",
+				"conditions": [-1, -1]
+			},
+			{
+				"type" : "ActionBreakLongWoodenStick",
+				"questType": 8,
+				"count": 1,
+				"extra": "",
+				"description": "Break down a long stick",
+				"conditions": [-1, -1]
+			},
+			{
+				"type" : "ActionLightItemOnFire",
+				"questType": 8,
+				"count": 1,
+				"extra": "Fireplace",
+				"description": "Start a fire using a tool",
+				"conditions": [-1, -1]
+			},
+			{
+				"type": "ZombieBase",
+				"count": 10,
+				"questType": 1,
+				"extra" : "",
+				"description" : "Kill 10 zombies",
+				"conditions" : [-1, -1]
+			}
+		],
+		"Rewards" : [
+			{
+				"type" : "AmmoBox_308WinTracer_20Rnd",
+				"count": 1,
+				"extra": "",
+				"description" : "Box of Bullets",
+				"conditions": [2, 1]
+			},
+			{
+				"type" : "GCGN_M700",
+				"count": 1,
+				"extra": "",
+				"description" : "Hunting Rifle",
+				"conditions": [2, 1]
+			},
+			{
+				"type" : "WeaponCleaningKit",
+				"count": 1,
+				"extra": "",
+				"description" : "Cleaning Kit",
+				"conditions": [1, 1]
+			},
+			{
+				"type" : "GCGN_M700_Mag",
+				"count": 1,
+				"extra": "",
+				"description" : "Rifle Magazine",
+				"conditions": [2, 1]
+			},
+			{
+				"type" : "HuntingOptic",
+				"count": 1,
+				"extra": "",
+				"description" : "Hunting Scope",
+				"conditions": [2, 1]
+			},
+			{
+				"type" : "TMI_Storage_Docs_Case",
+				"count": 1,
+				"extra": "",
+				"description" : "Documents Case",
+				"conditions": [1, 1]
+			}
+		]
+	}
+]

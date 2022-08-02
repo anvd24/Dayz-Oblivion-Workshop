@@ -1,0 +1,95 @@
+[
+	{
+		"ID" : 100,
+		"Cooldown": -1,
+		"TimeLimit" : -1,
+		"Name": "Рыбалка 1: Основы",
+		"Description": "Для рыбалки нужна удочка, ты можешь смастерить собственную из длинной палки и веревки, а также понадобится крючок. Его ты можешь сделать из костей.",
+		"RequiredQuests" : [],
+		"Targets" : [
+			{
+				"type" : "ImprovisedFishingRod",
+				"questType": 4,
+				"count": 1,
+				"extra": "",
+				"description": "Сделать самодельную удочку"
+			},
+			{
+				"type" : "BoneHook",
+				"questType": 4,
+				"count": 2,
+				"extra": "",
+				"description": "Выточить крючок из кости"
+			},
+			{
+				"type" : "Carp",
+				"questType": 5,
+				"count": 1,
+				"extra": "",
+				"description": "Поймать карпа"
+			},
+			{
+				"type" : "Carp",
+				"questType": 1,
+				"count": 1,
+				"extra": "Deagle_Gold",
+				"description": "Размозжить бошку карпу с помощью золотого дигла"
+			}
+		],
+		"Rewards" : [
+			{
+				"type" : "Worm",
+				"count": 3,
+				"extra": ""
+			}
+		]
+	},
+	{
+		"ID" : 101,
+		"Cooldown": -1,
+		"TimeLimit" : -1,
+		"Name": "Рыбалка 2: Практика",
+		"Description": "Для рыбалки нужна удочка, ты можешь смастерить собственную из длинной палки и веревки, а также понадобится крючок. Его ты можешь сделать из костей.",
+		"RequiredQuests" : [100],
+		"Targets" : [
+			{
+				"type" : "ImprovisedFishingRod",
+				"questType": 4,
+				"count": 1,
+				"extra": "",
+				"description": "Сделать самодельную удочку"
+			}
+		],
+		"Rewards" : [
+			{
+				"type" : "Worm",
+				"count": 3,
+				"extra": ""
+			}
+		]
+	},
+	{
+		"ID" : 102,
+		"Cooldown": -1,
+		"TimeLimit" : -1,
+		"Name": "Рыбалка 3: Приготовлении рыбы",
+		"Description": "Для рыбалки нужна удочка, ты можешь смастерить собственную из длинной палки и веревки, а также понадобится крючок. Его ты можешь сделать из костей.",
+		"RequiredQuests" : [101],
+		"Targets" : [
+			{
+				"type" : "ImprovisedFishingRod",
+				"questType": 4,
+				"count": 1,
+				"extra": "",
+				"description": "Сделать самодельную удочку"
+			}
+		],
+		"Rewards" : [
+			{
+				"type" : "Worm",
+				"count": 3,
+				"extra": ""
+			}
+		]
+	}
+]

@@ -1,0 +1,61 @@
+{
+    "QuestSlots": 3,
+    "HideUnavailableQuests": 0,
+    "CanCancelQuest": 1,
+    "ImportanceNPC": 2,
+    "Npcs": [
+        {
+            "Type": "SurvivorM_Peter",
+            "ID": 1,
+            "Position": "4609.5 72.7872 1833.23",
+            "Orientation": "76.281 0 -0",
+            "Clothes": [
+                "Patch_AoD_Loner_master",
+				"MilitaryBoots_Black",
+				"Zorya_Sunrise_AoD_Loner_v2_Body2",
+				"BP_cigaret",
+				"TacticalGloves_Black",
+				"Zorya_Sunrise_AoD_Loner_v2_Pants",
+				"KK_BaseballCap_Odin"
+            ],
+            "StartQuests" : [1, 2, 3, 4, 5, 6, 1000, 1001, 1002, 1003, 2000, 2001],
+            "FinishQuests" : [1, 2, 3, 4, 5, 6, 1000, 1001, 1002, 1003, 2000, 2001]
+        },
+		{
+            "Type": "SurvivorM_Quinn",
+            "ID": 2,
+            "Position": "4867.589844 122.057999 6671.410156",
+            "Orientation": "89.669205 0.000000 -0.000000",
+            "Clothes": [
+                "XS_EQP_HEAD_MilitaryBeret_Green",
+				"Exoskelet_AoD_Loner_Body",
+				"Exoskelet_AoD_Loner_Pants",
+				"Exoskelet_AoD_Military_Vests",
+				"CombatBoots_Grey",
+				"KK_TacticalGloves_Bandit"
+            ],
+            "StartQuests" : [50, 51, 52, 53, 54, 55, 56],
+            "FinishQuests" : [50, 51, 52, 53, 54, 55, 56, 1002]
+        },
+        {
+            "Type": "SurvivorM_Indar",
+            "ID": 3,
+            "Position": "2446.378174 38.095757 6212.199219",
+            "Orientation": "30.0 0.000 0.000",
+            "Clothes": [
+                "Skat_AoD_Duty_Helmet",
+				"Exoskelet_AoD_Duty_Body",
+				"Exoskelet_AoD_Duty_Pants",
+				"MilitaryBoots_Black",
+				"aod_gloves_loner_nbc"
+            ],
+            "StartQuests" : [100, 101, 102, 103, 104, 105, 106, 107, 108, 109],
+            "FinishQuests" : [100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+        }
+    ]
+}
+
+
+
+
+

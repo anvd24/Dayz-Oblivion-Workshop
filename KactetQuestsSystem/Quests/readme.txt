@@ -1,0 +1,1 @@
+Quest templates are stored here, the name and number of .json files does not matter, they will all be loaded from this directory.
